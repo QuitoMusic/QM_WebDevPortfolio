@@ -1,18 +1,18 @@
 import React from 'react';
-import './App.css'; 
-import Header from './components/Header';
-import Content from './components/Content';
-import Footer from './components/Footer';
 
-function App() {
+function Header() {
   return (
-    <div className="App">
-      <Header />
-      <Content />
-      <Footer />
-    </div>
+    <header>
+      <div className="headerName">
+        <div className="header-content">
+          <h1>Francisco González</h1>
+        </div>
+      </div>
+    </header>
   );
 }
 
-export default App;
+export default Header;
+
+
 
