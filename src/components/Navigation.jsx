@@ -15,7 +15,7 @@ function Navigation() {
             <img src={Logo} alt='logopic' style={{width:'125px', padding:'20px'}}></img>
         </div>
         <div className="header-content">
-        <h1 className='font-bold' style={{ fontSize:'40px' }}>Francisco González</h1>
+        <h1 className='font-bold name' style={{ fontSize:'30px', position:'relative', right: '200px'}}>Francisco González</h1>
         </div>
       <nav ref={navRef}>
         <a href="/#">Home</a>

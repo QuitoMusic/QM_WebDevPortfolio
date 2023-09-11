@@ -22,7 +22,7 @@ header{
   display:flex;
   align-items: center;
   justify-content: space-between;
-  height: 80px;
+  height: 100px;
   padding: o 2rem;
   background-color:var(--mainColor) ;
   color: var(--textColor);
@@ -76,7 +76,7 @@ header .nav-btn{
     transform: none;
   }
 
-  nav .nav_close{
+  nav .nav-close-btn{
 position: absolute;
 top: 2rem;
 right: 2rem;
@@ -84,5 +84,10 @@ right: 2rem;
 
   nav a{
     font-size: 1.5rem;
+  }
+
+  .name{
+  position: relative;
+  left: 20px;
   }
 }
