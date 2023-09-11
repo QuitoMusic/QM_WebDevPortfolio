@@ -1,19 +1,33 @@
-import React from 'react';
+import {useRef} from 'react';
 import Logo from "../assets/vecteezy_mountain-logo_1206203 (1).png";
+import {FaBars, FaTimes} from "react-icons/fa"
 
 function Navigation() {
+  const navRef = useRef();
+
+  const showNavbar = () => {
+    navRef.current.classList.toggle("responsive_nav");
+  }
+
   return (
     <header>
        <div>
             <img src={Logo} alt='logopic' style={{width:'125px', padding:'20px'}}></img>
         </div>
-      <div className="headerName">
         <div className="header-content">
-        <h1 className='font-bold' style={{ fontFamily: 'Raleway', position: 'relative', left:'130px', bottom:'95px', fontSize:'50px' }}>Francisco González</h1>
+        <h1 className='font-bold' style={{ fontSize:'40px' }}>Francisco González</h1>
         </div>
-      </div>
-
-      
+      <nav ref={navRef}>
+        <a href="/#">Home</a>
+        <a href="/#">Portfolio</a>
+        <a href="/#">About Me</a>
+        <button className= "nav-btn nav-close-btn" onClick={showNavbar}>
+          <FaTimes/>
+        </button>
+      </nav>
+      <button className= "nav-btn" onClick={showNavbar}>
+        <FaBars/>
+      </button>
     </header>
   );
 }
