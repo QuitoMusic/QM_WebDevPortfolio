@@ -18,9 +18,10 @@ function Navigation() {
         <h1 className='font-bold name' style={{ fontSize:'30px', position:'relative', right: '200px'}}>Francisco González</h1>
         </div>
       <nav ref={navRef}>
-        <a href="/#">Home</a>
-        <a href="/#">Portfolio</a>
         <a href="/#">About Me</a>
+        <a href="/#">Portfolio</a>
+        <a href="/#">Contact</a>
+        <a href="/#">Resume</a>
         <button className= "nav-btn nav-close-btn" onClick={showNavbar}>
           <FaTimes/>
         </button>
