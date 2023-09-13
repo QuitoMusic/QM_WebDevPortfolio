@@ -9,13 +9,12 @@ padding: 0px;
 margin: 0px;
 box-sizing: border-box;
 font-family: 'Raleway', sans-serif;
-color: var(--textColor);
 }
 
 :root{
   --mainColor: rgba(30, 30, 41, 0.534);
   --mainColorLight:rgb(139, 139, 148);
-  --secondaryColor: rgb(0, 0, 0);
+  --secondaryColor: rgba(0, 0, 0, 0.793);
   --textColor: #eee;
 }
 
@@ -30,7 +29,8 @@ header{
 
 .name{
   position: relative;
-  left: -150px;
+  left: -100px;
+  color: var(--textColor);
 }
 
 nav a{
@@ -39,10 +39,12 @@ nav a{
   text-decoration: none;
   position: relative;
   left: 200px;
+  font-size: 20px;
 }
 
 nav a:hover{
 color: var(--secondaryColor);
+text-shadow:var(--textColor);
 }
 
 header .nav-btn{
@@ -57,25 +59,95 @@ header .nav-btn{
   font-size: 1.5rem;
 }
 
- .about-me {
+.woodTable{
+    position: absolute; 
+    display: flex;
+    top: 335px;
+    height: 1000px;
+}
+
+ .parragraph1   {
   z-index:2;
   text-align: center;
-  width: 100%;
+  width: 30%;
   display:flex;
   position: relative;
-  top: 1100px;
-  font-size: 40px;
+  font-size: 30px;
+  top: 60px;
   font-weight: bolder;
-  position: absolute;
-  background-color:var(--mainColor);
+  z-index: 1;
+}
+
+.parragraph2{
+  z-index:2;
+  text-align: center;
+  width: 30%;
+  display:flex;
+  position: relative;
+  left: 1000px;
+  top: -160px;
+  font-size: 30px;
+  font-weight: bolder;
+  z-index: 1;
 }
 
 .section-with-background {
   background-image: url('./assets/AE628F2F-580C-4593-84D2-AA171685504A.png');
   background-size: cover;
   width:100%;
-  height: 1000px; 
-  opacity: 70%;
+  height: 900px; 
+  position: absolute;
+  top: 100px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.99);
+}
+
+.projectsTitle{
+  position: absolute;
+  font-size: 90px;
+  font-weight:bolder ;
+  color: var(--textColor);
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.99);
+  top: 1100px;
+  left: 550px;
+}
+
+.CatchMyBreath{
+  position: relative;
+  left: 150px;
+  top: 460px;
+width: 300px;
+border-radius: 20px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.99);
+}
+
+.TakeAHike{
+  position: relative;
+  left: 150px;
+  top: 470px;
+width: 300px;
+border-radius: 20px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.99);
+}
+
+.homepageJATE{
+  position: relative;
+  left: 950px;
+  top: 150px;
+width: 300px;
+height: 155px;
+border-radius: 20px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.99);
+}
+
+.weatherDashboard{
+  position: relative;
+  left: 950px;
+  top: 160px;
+width: 300px;
+height: 155px;
+border-radius: 20px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.99);
+
 }
 
 @media only screen and (max-width: 1024px){
@@ -85,6 +157,7 @@ header .nav-btn{
   }
 
   header nav{
+    z-index: 1;
     position: fixed;
     top: 0;
     left: 0;
@@ -95,7 +168,7 @@ header .nav-btn{
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
-    background-color: var(--mainColor);
+    background-color: rgb(139, 139, 148);
     transition: 1s;
     transform: translateY(-100vh);
   }

@@ -1,7 +1,8 @@
+
 import AboutMe from './components/AboutMe';
 import Navigation from './components/Navigation';
-
-import './index.css'
+import Portfolio from './components/Portfolio';
+import './index.css';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <AboutMe/>
       <div className="section-with-background">
       </div>
+      <Portfolio/>
     </div>
   );
 }
