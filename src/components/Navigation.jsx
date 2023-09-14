@@ -11,12 +11,15 @@ function Navigation() {
 
   return (
     <header>
-       <div>
-            <img src={Logo} alt='logopic' style={{width:'125px', padding:'20px'}}></img>
-        </div>
-        <div className="header-content">
-        <h1 className='font-bold name' style={{ fontSize:'30px', position:'relative', right: '200px'}}>Francisco González</h1>
-        </div>
+      <div className="relative">
+  <img
+    src={Logo}
+    alt="logopic"
+    className="w-300px mx-auto my-20"
+    style={{ position: 'relative', padding: '20px', top: '50px', width: '200px'}}
+  />
+</div>
+
       <nav ref={navRef}>
         <a href="/#">About Me</a>
         <a href="/#">Portfolio</a>

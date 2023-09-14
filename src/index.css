@@ -9,13 +9,18 @@ padding: 0px;
 margin: 0px;
 box-sizing: border-box;
 font-family: 'Raleway', sans-serif;
+color: var(--textColor);
 }
 
 :root{
-  --mainColor: rgba(30, 30, 41, 0.534);
+  --mainColor: rgb(34, 34, 34);
   --mainColorLight:rgb(139, 139, 148);
   --secondaryColor: rgba(0, 0, 0, 0.793);
   --textColor: #eee;
+}
+
+body{
+  background-color: var(--mainColor);
 }
 
 header{
@@ -27,39 +32,29 @@ header{
   background-color:var(--mainColor) ;
 }
 
-.name{
-  position: relative;
-  left: -100px;
-  color: var(--textColor);
-}
-
 nav a{
   margin: 0 2rem;
-  color: var(--textColor);
   text-decoration: none;
   position: relative;
-  left: 200px;
+  top: 30px;
+  left: 300px;
   font-size: 20px;
 }
 
-nav a:hover{
-color: var(--secondaryColor);
-text-shadow:var(--textColor);
-}
-
 header .nav-btn{
+  position: relative;
+  right: 20px;
+  top: 40px;
   padding: 5px;
   cursor: pointer;
-  background: transparent;
   border: none;
   outline: none;
-  color: var(--textColor);
   visibility: hidden;
   opacity: 0;
   font-size: 1.5rem;
 }
 
-.woodTable{
+/* .woodTable{
     position: absolute; 
     display: flex;
     top: 335px;
@@ -73,7 +68,7 @@ header .nav-btn{
   display:flex;
   position: relative;
   font-size: 30px;
-  top: 60px;
+  top: 90px;
   font-weight: bolder;
   z-index: 1;
 }
@@ -92,13 +87,14 @@ header .nav-btn{
 }
 
 .section-with-background {
-  background-image: url('./assets/AE628F2F-580C-4593-84D2-AA171685504A.png');
+  background-image: url('./assets/Profile Logo (1) copy.png');
   background-size: cover;
-  width:100%;
-  height: 900px; 
+  width: 35%;
+  height: 450px; 
   position: absolute;
   top: 100px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.99);
+  left: 450px;
+  
 }
 
 .projectsTitle{
@@ -148,7 +144,7 @@ height: 155px;
 border-radius: 20px;
 box-shadow: 0 0 10px rgba(0, 0, 0, 0.99);
 
-}
+} */
 
 @media only screen and (max-width: 1024px){
   header .nav-btn {
@@ -168,9 +164,9 @@ box-shadow: 0 0 10px rgba(0, 0, 0, 0.99);
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
-    background-color: rgb(139, 139, 148);
     transition: 1s;
     transform: translateY(-100vh);
+    background-color: var(--mainColor);
   }
 
   header .responsive_nav{
@@ -195,7 +191,7 @@ right: 2rem;
     left: 0px;
   }
 
-  .name{
+  /* .name{
   left: 30px;
   }
 
@@ -208,5 +204,5 @@ right: 2rem;
     align-items: center;
     top: 0px;
     left: 0px;
-  }
+  } */
 }
