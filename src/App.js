@@ -1,8 +1,7 @@
-
-// import AboutMe from './components/AboutMe';
+import AboutMe from './components/AboutMe';
 import Navigation from './components/Navigation';
 // import Portfolio from './components/Portfolio';
-import './index.css';
+import '../src/index.css';
 
 
 function App() {
@@ -10,10 +9,8 @@ function App() {
     
     <div className="App">
       <Navigation/>
-      {/* <AboutMe/>
-      <div className="section-with-background">
-      </div>
-      <Portfolio/> */}
+      <AboutMe/>
+      {/* <Portfolio/> */}
     </div>
   );
 }

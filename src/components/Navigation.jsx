@@ -15,8 +15,7 @@ function Navigation() {
   <img
     src={Logo}
     alt="logopic"
-    className="w-300px mx-auto my-20"
-    style={{ position: 'relative', padding: '20px', top: '50px', width: '200px'}}
+    className="w-100px mx-auto my-20"
   />
 </div>
 
