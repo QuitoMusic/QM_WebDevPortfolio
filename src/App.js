@@ -1,4 +1,4 @@
-import AboutMe from './components/AboutMe';
+// import AboutMe from './components/AboutMe';
 import Navigation from './components/Navigation';
 // import Portfolio from './components/Portfolio';
 import '../src/index.css';
@@ -9,7 +9,7 @@ function App() {
     
     <div className="App">
       <Navigation/>
-      <AboutMe/>
+      {/* <AboutMe/> */}
       {/* <Portfolio/> */}
     </div>
   );
