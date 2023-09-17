@@ -33,7 +33,7 @@ const Navigation = () => {
     <div className='flex justify-between items-center w-full h-25 text-white bg-gray-950 fixed'>
 
       <div>
-      <h1 className="p-5 text-7xl font-signature">G.Rosario</h1>
+      <h1 className="p-5 text-7xl font-signature">F.González</h1>
       </div>
 
 <ul className='hidden md:flex'>
