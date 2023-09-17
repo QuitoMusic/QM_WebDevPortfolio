@@ -29,10 +29,10 @@ const Navigation = () => {
   const [nav, setNav] = useState(false);
 
   return (
-    <div className='flex justify-between items-center w-full h-25 text-white bg-indigo-950 fixed'>
+    <div className='flex justify-between items-center w-full h-25 text-white bg-gray-950 fixed'>
 
       <div>
-      <h1 className="p-5 text-7xl font-signature">FG</h1>
+      <h1 className="p-5 text-7xl font-signature">G.Rosario</h1>
       </div>
 
 <ul className='hidden md:flex'>
@@ -50,8 +50,7 @@ const Navigation = () => {
 
 {nav &&(
   <ul className='flex flex-col justify-center items-center 
-  absolute top-0 w-full h-screen bg-gradient-to-b
-   from-indigo-950 to-indigo-900'>
+  absolute top-0 w-full h-screen bg-gradient-to-b  from-gray-950 to-gray-900'>
     {links.map(({id, link}) => (
         <li key={id} className='px-4 cursor-pointer capitalize py-6 text-4xl hover:scale-110 duration-200'>
         {link}

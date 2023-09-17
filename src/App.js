@@ -2,6 +2,7 @@
 import Navigation from './components/Navigation';
 // import Portfolio from './components/Portfolio';
 import '../src/index.css';
+import Home from './components/Home';
 
 
 function App() {
@@ -9,8 +10,7 @@ function App() {
     
     <div className="App">
       <Navigation/>
-      {/* <AboutMe/> */}
-      {/* <Portfolio/> */}
+      <Home/>
     </div>
   );
 }
