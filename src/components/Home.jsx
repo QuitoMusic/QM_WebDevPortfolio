@@ -1,5 +1,6 @@
 import React from 'react';
 import Portrait from "../assets/Portrait.jpeg";
+import {Link} from 'react-scroll';
 
 
 import { HiArrowRight } from 'react-icons/hi';
@@ -20,12 +21,12 @@ const Home = () => {
                 </p>
                 
                 <div>
-                    <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-yellow-950 to-yellow-800 cursor-pointer'>
+                    <Link to="portfolio" smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-yellow-950 to-yellow-800 cursor-pointer'>
                         Portfolio
                         <span className='group-hover:rotate-90 duration-300'>
                         <HiArrowRight size={25} className="ml-2" />
                         </span>
-                    </button>
+                    </Link>
                 </div>
             </div>
 <div>

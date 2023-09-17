@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import {FaBars, FaTimes} from 'react-icons/fa'
+import {FaBars, FaTimes} from 'react-icons/fa';
+import {Link} from 'react-scroll';
 
 
 const links = [
@@ -8,19 +9,19 @@ const links = [
     link: 'home'
   },
   {
-    id: 1,
+    id: 2,
     link: 'about'
   },
   {
-    id: 1,
+    id: 3,
     link: 'portfolio'
   },
   {
-    id: 1,
+    id: 4,
     link: 'experience'
   },
   {
-    id: 1,
+    id: 5,
     link: 'contact'
   },
 ]
@@ -40,7 +41,9 @@ const Navigation = () => {
 
 {links.map(({id, link}) => (
 <li key={id} className='px-10 cursor-pointer capitalize font-medium text-white hover:scale-150 duration-200'>
-{link}
+
+<Link to={link} smooth duration={500}>{link}</Link>
+
 </li>
 ))}
 </ul>
@@ -54,7 +57,7 @@ const Navigation = () => {
   absolute top-0 w-full h-screen bg-gradient-to-b  from-gray-950 to-gray-900'>
     {links.map(({id, link}) => (
         <li key={id} className='px-4 cursor-pointer capitalize py-6 text-4xl hover:scale-110 duration-200'>
-        {link}
+        <Link onClick={() => setNav(!nav)} to={link} smooth duration={500}>{link}</Link>
             </li>
           ))}
       </ul>
