@@ -1,9 +1,7 @@
-// import AboutMe from './components/AboutMe';
 import Navigation from './components/Navigation';
-// import Portfolio from './components/Portfolio';
-import '../src/index.css';
 import Home from './components/Home';
-
+import SocialLinks from './components/SocialLinks';
+import '../src/index.css';
 
 function App() {
   return (
@@ -11,6 +9,8 @@ function App() {
     <div className="App">
       <Navigation/>
       <Home/>
+      <SocialLinks/>
+
     </div>
   );
 }

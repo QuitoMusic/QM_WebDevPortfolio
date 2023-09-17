@@ -1,5 +1,7 @@
 import React from 'react';
 import Portrait from "../assets/Portrait.jpeg";
+
+
 import { HiArrowRight } from 'react-icons/hi';
 
 const Home = () => {
@@ -11,10 +13,12 @@ const Home = () => {
                     My name is Francisco González
                 </h2>
                 <p className='py-4 text-white max-w-md'>
-                I'm a dedicated full-stack web developer with a passion for crafting immersive digital experiences.
-                 I'm committed to staying at the forefront of web development trends and enjoy collaborating with diverse teams to create innovative digital products. 
-                 Let's connect and build something incredible together! 
+                I'm a dedicated full-stack web developer with a passion for crafting immersive digital experiences 
+                by staying at the forefront of web development trends and enjoying collaboration with diverse teams to create 
+                innovative digital products. 
+                Let's connect and build something incredible together! 
                 </p>
+                
                 <div>
                     <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-yellow-950 to-yellow-800 cursor-pointer'>
                         Portfolio
