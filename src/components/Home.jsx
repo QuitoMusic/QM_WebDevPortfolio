@@ -24,14 +24,14 @@ const Home = () => {
                     <Link to="portfolio" smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-yellow-950 to-yellow-800 cursor-pointer'>
                         Portfolio
                         <span className='group-hover:rotate-90 duration-300'>
-                        <HiArrowRight size={25} className="ml-2" />
+                        <HiArrowRight size={25} className="ml-2"/>
                         </span>
                     </Link>
                 </div>
             </div>
-<div>
-    <img src= {Portrait} alt="Portrait" className='rounded-full mx-auto md:w-full'/>
-</div>
+            <div>
+             <img src= {Portrait} alt="Portrait" className='rounded-full mx-auto md:w-full'/>
+            </div>
         </div>
     </div>
   )
