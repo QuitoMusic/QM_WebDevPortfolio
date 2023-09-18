@@ -71,7 +71,7 @@ const SocialLinks = () => {
                 </a>
             </li>
             ))}
-            
+
         </ul>
     </div>
   );
