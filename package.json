@@ -1,7 +1,7 @@
 {
   "name": "quitomusic-portfolio",
   "version": "0.1.0",
-  "homepage": "https://github.com/QuitoMusic/QM_WebDevPortfolio.git",
+  "homepage": "https://quitomusic.github.io/QM_WebDevPortfolio/",
   "private": true,
   "dependencies": {
     "@headlessui/react": "^1.7.17",
