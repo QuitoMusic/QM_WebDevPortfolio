@@ -8,8 +8,11 @@ import { HiArrowRight } from 'react-icons/hi';
 const Home = () => {
   return (
     <div name='home' className='h-screen w-full bg-gradient-to-b  from-gray-950 via-black to-gray-900'>
-        <div className='max-w-screen-lg mx-auto my- flex flex-col items-center justify-center h-full px-4 md:flex-row'>
-            <div className='flex flex-col justify-center h-full'>
+        <div className='max-w-screen-lg mx-auto my- flex flex-col items-center justify-center h-full px-4 md:flex-row pt-'>
+            <div className='flex flex-col justify-center h-full pt-20'>
+            <div className='w-[200px]'>
+             <img src= {Portrait} alt="Portrait" className='rounded-full mx-auto'/>
+            </div>
                 <h2 className='text-4xl sm:text-7xl font-bold text-white'>
                     My name is Francisco González
                 </h2>
@@ -29,9 +32,7 @@ const Home = () => {
                     </Link>
                 </div>
             </div>
-            <div>
-             <img src= {Portrait} alt="Portrait" className='rounded-full mx-auto md:w-full'/>
-            </div>
+            
         </div>
     </div>
   )
