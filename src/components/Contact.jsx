@@ -9,7 +9,7 @@ const Contact = () => {
 
   const [emailError, setEmailError] = useState('');
   const [submitting, setSubmitting] = useState(false);
-  const [submissionSuccess, setSubmissionSuccess] = useState(false); // New state for success message
+  const [submissionSuccess, setSubmissionSuccess] = useState(false); 
 
   const handleInputChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -46,17 +46,17 @@ const Contact = () => {
         });
 
         if (response.ok) {
-          // Handle successful form submission
+          
           console.log('Form submitted successfully');
           setSubmitting(false);
-          setSubmissionSuccess(true); // Set success state to true
+          setSubmissionSuccess(true); 
         } else if (response.status === 429 && retryCount < MAX_RETRIES) {
-          // Retry the request with exponential backoff
+          
           const delay = Math.pow(2, retryCount) * 1000;
           retryCount++;
           setTimeout(makeSubmissionRequest, delay);
         } else {
-          // Handle other errors in form submission
+          
           console.error('Form submission failed');
           setSubmitting(false);
         }
@@ -71,7 +71,7 @@ const Contact = () => {
   };
 
   useEffect(() => {
-    // You can add additional logic here to handle form submission success or failure, or redirect the user.
+  
   }, [submitting]);
 
   return (
@@ -80,7 +80,7 @@ const Contact = () => {
         <div className="pb-8 text-center">
           <p className="text-4xl font-bold inline border-b-4 border-slate-50">Let's work together!</p>
           <p className="py-6">Submit the form to get in contact with me:</p>
-          {submissionSuccess ? ( // Display success message if submission was successful
+          {submissionSuccess ? ( 
             <div className="text-white text-lg pb-3">
               Thank you for submitting the form! We'll be in touch soon.
             </div>
