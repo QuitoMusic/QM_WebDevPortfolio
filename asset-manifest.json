@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/QM_WebDevPortfolio/static/css/main.431b96a4.css",
+    "main.js": "/QM_WebDevPortfolio/static/js/main.fdc2c5d2.js",
+    "static/media/catchbreathe.png": "/QM_WebDevPortfolio/static/media/catchbreathe.bc4b7a8557f7347e26a9.png",
+    "static/media/TakeAHike.png": "/QM_WebDevPortfolio/static/media/TakeAHike.0f5ea5e58d922792a38b.png",
+    "static/media/NoteTaker.png": "/QM_WebDevPortfolio/static/media/NoteTaker.872182ff153b0b388f45.png",
+    "static/media/JATE.png": "/QM_WebDevPortfolio/static/media/JATE.1d308e4463f5dde256f0.png",
+    "static/media/CodingQuiz.png": "/QM_WebDevPortfolio/static/media/CodingQuiz.6fb6862505befea44078.png",
+    "static/media/weatherDashboard.png": "/QM_WebDevPortfolio/static/media/weatherDashboard.c78695e87d78ec3004a3.png",
+    "static/media/Portrait.jpeg": "/QM_WebDevPortfolio/static/media/Portrait.ecaa2c2be290593432b4.jpeg",
+    "static/media/react.png": "/QM_WebDevPortfolio/static/media/react.be941a112e22082f7efb.png",
+    "static/media/node.png": "/QM_WebDevPortfolio/static/media/node.39957d72b9794421e9d1.png",
+    "static/media/mongo.png": "/QM_WebDevPortfolio/static/media/mongo.4406467668ae76e32d29.png",
+    "static/media/html.png": "/QM_WebDevPortfolio/static/media/html.7846268ceeebb0592174.png",
+    "static/media/css.png": "/QM_WebDevPortfolio/static/media/css.7307c528d86a0bccc460.png",
+    "static/media/javascript.png": "/QM_WebDevPortfolio/static/media/javascript.22e1f011ec6b56dfb397.png",
+    "index.html": "/QM_WebDevPortfolio/index.html",
+    "main.431b96a4.css.map": "/QM_WebDevPortfolio/static/css/main.431b96a4.css.map",
+    "main.fdc2c5d2.js.map": "/QM_WebDevPortfolio/static/js/main.fdc2c5d2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.431b96a4.css",
+    "static/js/main.fdc2c5d2.js"
+  ]
+}
