@@ -13,8 +13,11 @@ const Home = () => {
             <div className='w-[250px]'>
              <img src= {Portrait} alt="Portrait" className='rounded-full mx-auto'/>
             </div>
-                <h2 className='text-2xl xl:text-5xl font-bold text-white'>
-                    My name is Francisco González
+                <h2 className='text-2xl xl:text-3xl text-white'>
+                    My name is
+                </h2>
+                <h2 className='text-3xl xl:text-5xl font-extrabold text-white'>
+                    Francisco González
                 </h2>
                 <p className='py-4 text-white max-w-md text-center'>
                 I'm a dedicated full-stack web developer with a passion for crafting immersive digital experiences 
