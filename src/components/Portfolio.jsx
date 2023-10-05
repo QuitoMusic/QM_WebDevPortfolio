@@ -1,9 +1,6 @@
 import React from 'react';
-import weatherDashboard from '../assets/weatherDashboard.png';
+import Stasios from '../assets/Stasios.png';
 import TakeAHike from '../assets/TakeAHike.png';
-import NoteTaker from '../assets/NoteTaker.png';
-import JATE from '../assets/JATE.png';
-import CodingQuiz from '../assets/CodingQuiz.png';
 import Catchbreathe from '../assets/catchbreathe.png';
 
 const Portfolio = () => {
@@ -22,27 +19,9 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      src: JATE,
-      href: 'https://pwajate-text-editor-64e0b83af6c5.herokuapp.com/',
-      href2: 'https://github.com/QuitoMusic/PWA_Text_Editor',
-    },
-    {
-      id: 4,
-      src: weatherDashboard,
-      href: 'https://quitomusic.github.io/Weather_Dashboard/',
-      href2: 'https://github.com/QuitoMusic/Weather_Dashboard',
-    },
-    {
-      id: 5,
-      src: CodingQuiz,
-      href: 'https://quitomusic.github.io/UCF_Coding_Quiz_Challenge_/ ',
-      href2: 'https://github.com/QuitoMusic/UCF_Coding_Quiz_Challenge_',
-    },
-    {
-      id: 6,
-      src: NoteTaker,
-      href: 'https://notestaker-ucf-f955702f5072.herokuapp.com/',
-      href2: 'https://github.com/QuitoMusic/NoteTaker',
+      src: Stasios,
+      href: 'https://stasios-7fcd485311cd.herokuapp.com/',
+      href2: 'https://github.com/NickSweet1/Stasios',
     },
   ];
 

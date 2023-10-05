@@ -9,14 +9,14 @@ const Home = () => {
   return (
     <div name='home' className='h-screen w-full bg-gradient-to-b  from-gray-950 via-black to-gray-900'>
         <div className='max-w-screen-lg mx-auto my- flex flex-col items-center justify-center h-full px-4 md:flex-row pt-'>
-            <div className='flex flex-col justify-center h-full pt-20'>
-            <div className='w-[200px]'>
+            <div className='flex flex-col justify-center items-center h-full pt-20'>
+            <div className='w-[250px]'>
              <img src= {Portrait} alt="Portrait" className='rounded-full mx-auto'/>
             </div>
-                <h2 className='text-4xl sm:text-7xl font-bold text-white'>
+                <h2 className='text-2xl xl:text-5xl font-bold text-white'>
                     My name is Francisco González
                 </h2>
-                <p className='py-4 text-white max-w-md'>
+                <p className='py-4 text-white max-w-md text-center'>
                 I'm a dedicated full-stack web developer with a passion for crafting immersive digital experiences 
                 by staying at the forefront of web development trends and enjoying collaboration with diverse teams to create 
                 innovative digital products. 
