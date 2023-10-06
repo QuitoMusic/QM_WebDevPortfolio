@@ -78,7 +78,7 @@ const Contact = () => {
     <div name="contact" className="w-full h-screen bg-gradient-to-b from-gray-950 via-black to-gray-900 p-4 text-white">
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8 text-center">
-          <p className="text-4xl font-bold inline border-b-4 border-slate-50">Let's work together!</p>
+          <p className="text-4xl xl:text-6xl font-bold inline font-signature">Let 's work together!</p>
           <p className="py-6">Submit the form to get in contact with me:</p>
           {submissionSuccess ? ( 
             <div className="text-white text-lg pb-3">
@@ -130,10 +130,10 @@ const Contact = () => {
 
                 <button
                   type="submit"
-                  className="text-white bg-gradient-to-b from-yellow-950 to-yellow-800 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-125 duration-300"
+                  className="text-white font-signature bg-gradient-to-b from-yellow-950 to-yellow-800  px-6 py-3 my-8 mx-auto text-2xl flex items-center rounded-md hover:scale-125 duration-300"
                   disabled={submitting}
                 >
-                  {submitting ? 'Submitting...' : 'Let\'s Talk!'}
+                  {submitting ? 'Submitting...' : 'Let \'s Talk!'}
                 </button>
               </form>
             </div>

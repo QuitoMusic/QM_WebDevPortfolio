@@ -16,7 +16,7 @@ const Home = () => {
                 <h2 className='text-2xl xl:text-3xl text-white'>
                     My name is
                 </h2>
-                <h2 className='text-3xl xl:text-5xl font-extrabold text-white'>
+                <h2 className='text-5xl xl:text-7xl font-extrabold text-white font-signature pt-2'>
                     Francisco González
                 </h2>
                 <p className='py-4 text-white max-w-md text-center'>
