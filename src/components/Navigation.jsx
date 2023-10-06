@@ -31,10 +31,10 @@ const Navigation = () => {
   const [nav, setNav] = useState(false);
 
   return (
-    <div className='flex justify-between items-center w-full h-25 text-white bg-gray-950 fixed'>
+    <div className='flex justify-between items-center w-full h-25 text-white bg-gray-950 fixed z-10'>
 
       <div>
-      <h1 className="p-5 text-4xl sm:text-7xl font-signature">FQ</h1>
+      <h1 className="p-5 text-4xl sm:text-7xl font-signature">F.</h1>
       </div>
 
 <ul className='hidden md:flex'>

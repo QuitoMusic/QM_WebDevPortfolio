@@ -13,10 +13,10 @@ const Home = () => {
             <div className='w-[250px]'>
              <img src= {Portrait} alt="Portrait" className='rounded-full mx-auto'/>
             </div>
-                <h2 className='text-2xl xl:text-3xl text-white'>
+                <h2 className='text-2xl xl:text-3xl text-white pb-2 font-extrabold'>
                     My name is
                 </h2>
-                <h2 className='text-5xl xl:text-7xl font-extrabold text-white font-signature pt-2'>
+                <h2 className='text-5xl xl:text-7xl text-white font-signature pt-2'>
                     Francisco González
                 </h2>
                 <p className='py-4 text-white max-w-md text-center'>
@@ -27,9 +27,9 @@ const Home = () => {
                 </p>
                 
                 <div>
-                    <Link to="portfolio" smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-yellow-950 to-yellow-800 cursor-pointer'>
+                    <Link to="portfolio" smooth duration={500} className='font-signature text-3xl xl:text-6xl group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md  bg-yellow-950 cursor-pointer'>
                         Portfolio
-                        <span className='group-hover:rotate-90 duration-300'>
+                        <span className='group-hover:rotate-90 duration-300 xl:px-2'>
                         <HiArrowRight size={25} className="ml-2"/>
                         </span>
                     </Link>

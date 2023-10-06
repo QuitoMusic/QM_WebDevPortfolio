@@ -130,7 +130,7 @@ const Contact = () => {
 
                 <button
                   type="submit"
-                  className="text-white font-signature bg-gradient-to-b from-yellow-950 to-yellow-800  px-6 py-3 my-8 mx-auto text-2xl flex items-center rounded-md hover:scale-125 duration-300"
+                  className="text-white font-signature  bg-yellow-950  px-6 py-3 my-8 mx-auto text-2xl flex items-center rounded-md hover:scale-125 duration-300"
                   disabled={submitting}
                 >
                   {submitting ? 'Submitting...' : 'Let \'s Talk!'}
