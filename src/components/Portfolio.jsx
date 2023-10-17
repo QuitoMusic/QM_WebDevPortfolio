@@ -1,26 +1,34 @@
 import React from 'react';
 import Stasios from '../assets/Stasios.png';
 import TakeAHike from '../assets/TakeAHike.png';
-import Catchbreathe from '../assets/catchbreathe.png';
+import CatchMybreathe from '../assets/catchbreathe.png';
+import WeatherDashboard from '../assets/WeatherDashboard.png';
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: Catchbreathe,
+      src: CatchMybreathe,
       href: 'https://willzealot.github.io/Catchmybreathe/',
       href2: 'https://github.com/WillZealot/Catchmybreathe',
       name: 'Air Quality Vacation Website',
     },
     {
       id: 2,
+      src: WeatherDashboard,
+      href: 'https://quitomusic.github.io/Weather_Dashboard/',
+      href2: 'https://github.com/QuitoMusic/Weather_Dashboard',
+      name: 'Weather Dashboard',
+    },
+    {
+      id: 3,
       src: TakeAHike,
       href: 'https://take-a-hike-quito-2bdfd3666c8e.herokuapp.com/',
       href2: 'https://github.com/QuitoMusic/Take_A_Hike',
       name: 'Social Media For Hikers',
     },
     {
-      id: 3,
+      id: 4,
       src: Stasios,
       href: 'https://stasios-7fcd485311cd.herokuapp.com/',
       href2: 'https://github.com/NickSweet1/Stasios',
