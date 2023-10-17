@@ -44,7 +44,7 @@ const Portfolio = () => {
           <p className="py-6">Here are some examples of my work</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+        <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-8 px-12 sm:px-0">
           {portfolios.map(({ id, src, href, href2, name }) => (
             <div key={id} className="rounded-xl relative overflow-hidden group">
               <a href={href} className="flex justify-between items-center w-full text-white group-hover:blur-md group-hover:text-opacity-100 transform transition-transform duration-1000">
