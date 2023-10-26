@@ -4,6 +4,7 @@ import TakeAHike from '../assets/TakeAHike.png';
 import CatchMybreathe from '../assets/catchbreathe.png';
 import WeatherDashboard from '../assets/WeatherDashboard.png';
 import JATE from '../assets/Homepage.png';
+import CQuiz from '../assets/CodingQuiz.png';
 
 const Portfolio = () => {
   const portfolios = [
@@ -42,6 +43,13 @@ const Portfolio = () => {
       href2: 'https://github.com/QuitoMusic/PWA_Text_Editor',
       name: 'PWA Text Editor',
     },
+    {
+      id: 6,
+      src: CQuiz,
+      href: 'https://quitomusic.github.io/UCF_Coding_Quiz_Challenge_/',
+      href2: 'https://github.com/QuitoMusic/UCF_Coding_Quiz_Challenge_',
+      name: 'Coding Quiz',
+    },
   ];
 
   return (
@@ -59,7 +67,7 @@ const Portfolio = () => {
                 <img src={src} alt="" className="rounded-md" />
               </a>
               
-              <div className="text-2xl w-[15rem] absolute top-[6rem] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center bg-yellow-950 bg-opacity-80 text-white px-2 py-1 rounded-md opacity-0 group-hover:opacity-100 transition-opacity">
+              <div className="text-2xl w-[15rem] absolute  top-[4.5rem] md:top-[4rem] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center bg-yellow-950 bg-opacity-80 text-white px-2 py-1 rounded-3xl shadow-2xl shadow-slate-100 opacity-0 group-hover:opacity-100 transition-opacity">
                 {name}
               </div>
 
