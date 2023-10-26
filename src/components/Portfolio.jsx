@@ -3,6 +3,7 @@ import Stasios from '../assets/Stasios.png';
 import TakeAHike from '../assets/TakeAHike.png';
 import CatchMybreathe from '../assets/catchbreathe.png';
 import WeatherDashboard from '../assets/WeatherDashboard.png';
+import JATE from '../assets/Homepage.png';
 
 const Portfolio = () => {
   const portfolios = [
@@ -33,6 +34,13 @@ const Portfolio = () => {
       href: 'https://stasios-7fcd485311cd.herokuapp.com/',
       href2: 'https://github.com/NickSweet1/Stasios',
       name: 'Italian Restaurant',
+    },
+    {
+      id: 5,
+      src: JATE,
+      href: 'https://pwajate-text-editor-64e0b83af6c5.herokuapp.com/',
+      href2: 'https://github.com/QuitoMusic/PWA_Text_Editor',
+      name: 'PWA Text Editor',
     },
   ];
 
