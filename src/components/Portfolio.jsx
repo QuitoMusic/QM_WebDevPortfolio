@@ -5,6 +5,7 @@ import CatchMybreathe from '../assets/catchbreathe.png';
 import WeatherDashboard from '../assets/WeatherDashboard.png';
 import JATE from '../assets/Homepage.png';
 import CQuiz from '../assets/CodingQuiz.png';
+import PasswordGenerator from '../assets/PasswordGenerator.png';
 
 const Portfolio = () => {
   const portfolios = [
@@ -49,6 +50,13 @@ const Portfolio = () => {
       href: 'https://quitomusic.github.io/UCF_Coding_Quiz_Challenge_/',
       href2: 'https://github.com/QuitoMusic/UCF_Coding_Quiz_Challenge_',
       name: 'Coding Quiz',
+    },
+    {
+      id: 7,
+      src: PasswordGenerator,
+      href: 'https://quitomusic.github.io/UCF_JS_passwordgenerator_Challenge_3/',
+      href2: 'https://github.com/QuitoMusic/UCF_JS_passwordgenerator_Challenge_3',
+      name: 'Password Generator',
     },
   ];
 
