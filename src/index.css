@@ -63,3 +63,12 @@ body {
 .glow-on-hover:hover {
   text-shadow: 0 0 5px rgba(255, 255, 255, 1);
 }
+
+@media (max-width: 1170px) {
+  body {
+    background-image: url('./assets/images/background.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+  }
+}
