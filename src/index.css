@@ -68,6 +68,6 @@ body {
     body {
       background-size: 400%; 
       background-repeat: no-repeat;
-      background-position: center; 
+      background-position: center center; 
     }
 }
