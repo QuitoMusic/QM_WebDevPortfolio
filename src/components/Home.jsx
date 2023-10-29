@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <div name='home' className='h-screen w-full '>
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
-            <div className='flex flex-col justify-center items-center h-full pt-[6rem]'>
+            <div className='flex flex-col justify-center items-center h-full pt-[2rem]'>
             <div className='2xl:w-[350px] md:w-[300px] w-[200px] absolute'>
              <img src= {Portrait} alt="Portrait" className='rounded-full mx-auto md:mb-[20rem] mb-[25rem]'/>
             </div>

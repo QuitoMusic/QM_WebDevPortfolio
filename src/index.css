@@ -36,6 +36,10 @@
   }
 }
 
+.white-leaf {
+  filter: brightness(70) invert(0);
+  
+}
 
 .leaf-animation-1 {
   animation: sway-1 4s infinite linear; 

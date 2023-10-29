@@ -42,11 +42,11 @@ const Navigation = () => {
 </div>
       
       <div>
-       <img src= {Leave1} alt="Leaves" className='d-flex absolute md:w-[110px] w-[80px] top-[0.5rem] right-[4rem] 2xl:w-[100px] xl:top-[0.5em] 2xl:top-[0rem]  md:right-[66rem] 2xl:right-[97rem]  rounded-full mx-auto saturate-0 brightness-[-1%] invert leaf-animation-1'/>
+       <img src= {Leave1} alt="Leaves" className='d-flex absolute md:w-[110px] w-[80px] top-[0.5rem] right-[4rem] 2xl:w-[100px] xl:top-[0.5em] 2xl:top-[0rem]  md:right-[66rem] 2xl:right-[97rem]  rounded-full mx-auto white-leaf leaf-animation-1'/>
       </div>
 
       <div>
-      <img src= {Leave2} alt="Leaves" className='d-flex absolute md:w-[110px] w-[80px] top-[0.5rem] right-[15.5rem] 2xl:w-[100px] xl:top-[0.5rem] 2xl:top-[0rem]  md:right-[82rem] 2xl:right-[112.5rem]  rounded-full mx-auto saturate-0 brightness-[-1%] invert leaf-animation-2'/>
+      <img src= {Leave2} alt="Leaves" className='d-flex absolute md:w-[110px] w-[80px] top-[0.5rem] right-[15.5rem] 2xl:w-[100px] xl:top-[0.5rem] 2xl:top-[0rem]  md:right-[82rem] 2xl:right-[112.5rem]  rounded-full mx-auto white-leaf leaf-animation-2'/>
       </div>
 
 <ul className='hidden md:flex'>
