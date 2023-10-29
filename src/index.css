@@ -68,8 +68,7 @@ body {
   html, body {
     background-image: url('./assets/images/background.jpg') !important;
     background-size: 400% !important;
-    background-repeat: no-repeat !important;
+    background-repeat:repeat-y !important;
     background-position: top center !important;
-    background-attachment: fixed !important;
   }
 }
