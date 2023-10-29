@@ -25,7 +25,7 @@ const Icons = [
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-950 text-white flex justify-center items-center">
+    <footer className="bg-yellow-950 opacity-[90%] text-white flex justify-center items-center">
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row justify-center items-center">
           <ul className="flex flex-wrap">

@@ -61,11 +61,11 @@ const Portfolio = () => {
   ];
 
   return (
-    <div name="portfolio" className="bg-gradient-to-b from-gray-950 via-black to-gray-900 w-full text-white md:h-screen">
+    <div name="portfolio" className="w-full text-white md:h-screen pt-[5rem] xl:pt-[6rem]">
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="text-center sm:pb-8 sm:mt-20">
-          <p className="text-5xl font-bold inline my-4 sm:text-left font-signature">Portfolio</p>
-          <p className="py-6">Here are some examples of my work</p>
+        <div  className="text-center pb-8">
+          <p className="text-7xl font-bold inline my-4 sm:text-left font-signature text-shadow-lg shadow-yellow-950">Portfolio</p>
+          <p className="py-6 text-xl md:text-3xl text-shadow-lg shadow-yellow-950">Here are some examples of my work</p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-8 px-12 sm:px-0">
@@ -75,11 +75,11 @@ const Portfolio = () => {
                 <img src={src} alt="" className="rounded-md" />
               </a>
               
-              <div className="text-2xl w-[15rem] absolute  top-[4.5rem] md:top-[4rem] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center bg-yellow-950 bg-opacity-80 text-white px-2 py-1 rounded-3xl shadow-2xl shadow-slate-100 opacity-0 group-hover:opacity-100 transition-opacity">
+              <div className="text-2xl w-[15rem] absolute top-[4.5rem] md:top-[4rem] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center bg-yellow-950 bg-opacity-90 text-white px-2 py-1 rounded-3xl shadow-2xl shadow-slate-100 opacity-0 group-hover:opacity-100 transition-opacity">
                 {name}
               </div>
 
-              <div className="flex item-center justify-center bg-yellow-950 bg-opacity-80">
+              <div className="flex item-center justify-center bg-yellow-950 bg-opacity-90">
                 <a href={href}>
                   <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-125 font-signature text-[1.5rem]">Demo</button>
                 </a>

@@ -75,28 +75,28 @@ const Contact = () => {
   }, [submitting]);
 
   return (
-    <div name="contact" className="w-full h-screen bg-gradient-to-b from-gray-950 via-black to-gray-900 p-4 text-white">
+    <div name="contact" className="w-full h-screen p-4 text-yellow-950 pt-[5rem] md:pt-[5rem]">
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
-        <div className="pb-8 text-center">
-          <p className="text-4xl xl:text-6xl font-bold inline font-signature">Let 's work together!</p>
-          <p className="py-6">Submit the form to get in contact with me:</p>
+        <div className="pb-2 pt-3 text-center bg-slate-100 bg-opacity-[90%] rounded-2xl">
+          <p className="text-4xl xl:text-5xl font-bold inline font-signature text-shadow-lg shadow-yellow-950">Let 's work together!</p>
+          <p className="py-6 text-xl text-shadow-lg shadow-yellow-950">Submit the form to get in contact with me:</p>
           {submissionSuccess ? ( 
-            <div className="text-white text-lg pb-3">
-              Thank you for submitting the form! We'll be in touch soon.
+            <div className="text-yellow-950 text-lg p-3">
+              Thank you for submitting the form. We'll be in touch soon!
             </div>
           ) : (
             <div className="flex justify-center items-center">
               <form
                 action="https://getform.io/f/6ffbc22e-bc4c-4553-b731-7db867bf3d5a"
                 method="POST"
-                className="flex flex-col w-full md:w-1/2"
+                className="flex flex-col w-full md:w-1/2 p-2"
                 onSubmit={handleSubmit}
               >
                 <input
                   type="text"
                   name="name"
                   placeholder="Enter your name"
-                  className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+                  className="p-2 bg-transparent border-2 rounded-md text-yellow-950 focus:outline-none border-yellow-950"
                   value={formData.name}
                   onChange={handleInputChange}
                   required
@@ -106,7 +106,7 @@ const Contact = () => {
                   type="text"
                   name="email"
                   placeholder="Enter your email"
-                  className={`my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none ${
+                  className={`my-4 p-2 bg-transparent border-2 rounded-md text-yellow-950 focus:outline-none border-yellow-950 ${
                     emailError ? 'border-red-500' : ''
                   }`}
                   value={formData.email}
@@ -122,7 +122,7 @@ const Contact = () => {
                   name="message"
                   placeholder="Enter your message"
                   rows="10"
-                  className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+                  className="p-2 bg-transparent border-2 rounded-md text-yellow-950 focus:outline-none border-yellow-950"
                   value={formData.message}
                   onChange={handleInputChange}
                   required
@@ -130,7 +130,7 @@ const Contact = () => {
 
                 <button
                   type="submit"
-                  className="text-white font-signature  bg-yellow-950  px-6 py-3 my-8 mx-auto text-2xl flex items-center rounded-md hover:scale-125 duration-300"
+                  className="text-white font-signature  bg-yellow-950 opacity-[90%] px-6 py-3 my-8 mx-auto text-2xl flex items-center rounded-md hover:scale-125 duration-300"
                   disabled={submitting}
                 >
                   {submitting ? 'Submitting...' : 'Let \'s Talk!'}

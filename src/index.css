@@ -38,9 +38,24 @@
 
 
 .leaf-animation-1 {
-  animation: sway-1 3s infinite linear; 
+  animation: sway-1 4s infinite linear; 
 }
 
 .leaf-animation-2 {
   animation: sway-2 5s infinite linear; 
+}
+
+body {
+  background-image: url('./assets/images/background.jpg'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+}
+
+.glow-on-hover {
+  transition: all 0.3s ease;
+}
+
+.glow-on-hover:hover {
+  text-shadow: 0 0 5px rgba(255, 255, 255, 1);
 }
