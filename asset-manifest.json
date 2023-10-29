@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/QM_WebDevPortfolio/static/css/main.040e90e6.css",
-    "main.js": "/QM_WebDevPortfolio/static/js/main.88ebc0fc.js",
+    "main.css": "/QM_WebDevPortfolio/static/css/main.d4cc3c16.css",
+    "main.js": "/QM_WebDevPortfolio/static/js/main.02a80857.js",
     "static/media/TakeAHike.png": "/QM_WebDevPortfolio/static/media/TakeAHike.83ca6b5083eb1206f74c.png",
     "static/media/Stasios.png": "/QM_WebDevPortfolio/static/media/Stasios.5ae030e066e508c8d13c.png",
     "static/media/catchbreathe.png": "/QM_WebDevPortfolio/static/media/catchbreathe.bc4b7a8557f7347e26a9.png",
     "static/media/CodingQuiz.png": "/QM_WebDevPortfolio/static/media/CodingQuiz.58ae7ffea0424b38914b.png",
+    "static/media/background.jpg": "/QM_WebDevPortfolio/static/media/background.b4bae778ada2461ebdba.jpg",
     "static/media/WeatherDashboard.png": "/QM_WebDevPortfolio/static/media/WeatherDashboard.8b8a74597638494fa8e4.png",
+    "static/media/Portrait.jpg": "/QM_WebDevPortfolio/static/media/Portrait.a662827717ad05739890.jpg",
     "static/media/Leave1.png": "/QM_WebDevPortfolio/static/media/Leave1.349845e31e3564cca8fa.png",
     "static/media/PasswordGenerator.png": "/QM_WebDevPortfolio/static/media/PasswordGenerator.e6bf5774080106657537.png",
     "static/media/Leave2.png": "/QM_WebDevPortfolio/static/media/Leave2.697824b36e3d4a3d9c14.png",
-    "static/media/Portrait.jpeg": "/QM_WebDevPortfolio/static/media/Portrait.ecaa2c2be290593432b4.jpeg",
     "static/media/Homepage.png": "/QM_WebDevPortfolio/static/media/Homepage.07ccbf4f3e5e81ea5bf6.png",
     "static/media/react.png": "/QM_WebDevPortfolio/static/media/react.be941a112e22082f7efb.png",
     "static/media/node.png": "/QM_WebDevPortfolio/static/media/node.39957d72b9794421e9d1.png",
@@ -19,11 +20,11 @@
     "static/media/css.png": "/QM_WebDevPortfolio/static/media/css.7307c528d86a0bccc460.png",
     "static/media/javascript.png": "/QM_WebDevPortfolio/static/media/javascript.22e1f011ec6b56dfb397.png",
     "index.html": "/QM_WebDevPortfolio/index.html",
-    "main.040e90e6.css.map": "/QM_WebDevPortfolio/static/css/main.040e90e6.css.map",
-    "main.88ebc0fc.js.map": "/QM_WebDevPortfolio/static/js/main.88ebc0fc.js.map"
+    "main.d4cc3c16.css.map": "/QM_WebDevPortfolio/static/css/main.d4cc3c16.css.map",
+    "main.02a80857.js.map": "/QM_WebDevPortfolio/static/js/main.02a80857.js.map"
   },
   "entrypoints": [
-    "static/css/main.040e90e6.css",
-    "static/js/main.88ebc0fc.js"
+    "static/css/main.d4cc3c16.css",
+    "static/js/main.02a80857.js"
   ]
 }
