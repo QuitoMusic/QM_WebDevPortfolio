@@ -65,10 +65,11 @@ body {
 }
 
 @media (max-width: 768px) {
-    body {
-      background-size: 400%; 
-      background-repeat: no-repeat;
-      background-position: top center; 
-      background-attachment: fixed;
-    }
+  html, body {
+    background-image: url('./assets/images/background.jpg');
+    background-size: 400%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+  }
 }
