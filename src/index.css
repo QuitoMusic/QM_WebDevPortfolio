@@ -65,11 +65,9 @@ body {
 }
 
 @media (max-width: 768px) {
-  body {
     body {
       background-size: 400%; 
       background-repeat: no-repeat;
       background-position: center; 
     }
-  }
 }
