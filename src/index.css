@@ -67,7 +67,6 @@ body {
 @media (max-width: 768px) {
   body {
     body {
-      background-image: url('./assets/images/background.jpg');
       background-size: 400%; 
       background-repeat: no-repeat;
       background-position: center; 
