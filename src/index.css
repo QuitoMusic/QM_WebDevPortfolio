@@ -68,6 +68,7 @@ body {
     body {
       background-size: 400%; 
       background-repeat: no-repeat;
-      background-position: center center; 
+      background-position: top center; 
+      background-attachment: fixed;
     }
 }
