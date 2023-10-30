@@ -21,14 +21,14 @@ const Home = () => {
             <div className='w-[250px]'>
              <img src= {Leave2} alt="Leaves" className='d-flex absolute md:w-[190px] w-[120px] 2xl:w-[280px] xl:top-[15.5rem] md:top-[22rem] 2xl:top-[18rem] top-[11.5rem] md:right-[44rem] 2xl:right-[59rem] right-[12rem] rounded-full mx-auto invert saturate-0 brightness-[-1%] leaf-animation-1'/>
             </div> */}
-            <div class="text-shadow-lg shadow-yellow-950 text-center justify-center bg-opacity-80 pt-[5rem] mt-[7rem] md:pt-[7rem] 2xl:p-[1rem] 2xl:pt-[9rem] 2xl:pb-[1rem] bg-slate-100 rounded-lg 2xl:mt-[13rem] md:mt-[10rem] 2xl:w-[42rem]">
+            <div class="text-center justify-center bg-opacity-80 pt-[4.5rem] mt-[6.5rem] md:pt-[7rem] 2xl:p-[1rem] 2xl:pt-[9rem] 2xl:pb-[1rem] bg-slate-100 rounded-lg 2xl:mt-[13rem] md:mt-[10rem] 2xl:w-[42rem]">
             <h2 className='text-2xl xl:text-xl text-black md:text-yellow-950 pb-2 font-extrabold'>
                     My name is
                 </h2>
-                <h2 className='text-5xl xl:text-5xl text-yellow-950 font-signature'>
+                <h2 className='text-shadow-lg shadow-yellow-950 text-5xl xl:text-5xl text-yellow-950 font-signature'>
                     Francisco González
                 </h2>
-                <p className='pb-0 p-4 text-black font-extrabold md:text-yellow-950 max-w-2xl text-center text-md'>
+                <p className='pb-0 p-4 text-black font-extrabold md:text-yellow-950 max-w-2xl text-center text-lg'>
                 I'm a dedicated full-stack web developer with a passion for crafting immersive digital experiences 
                 by staying at the forefront of web development trends and enjoying collaboration with diverse teams to create 
                 innovative digital products. 
