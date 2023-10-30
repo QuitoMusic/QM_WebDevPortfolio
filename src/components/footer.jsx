@@ -25,18 +25,18 @@ const Icons = [
 
 const Footer = () => {
   return (
-    <footer className="bg-yellow-950 opacity-[90%] text-white flex justify-center items-center">
+    <footer className="bg-yellow-950 opacity-[90%] text-white flex justify-center items-center mt-3">
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row justify-center items-center">
           <ul className="flex flex-wrap">
             {Icons.map(({ child, href }) => (
-              <li key={href} className="p-6">
+              <li key={href} className="p-2">
                 <a href={href}>{child}</a>
               </li>
             ))}
           </ul>
         </div>
-        <p className="text-center pb-7">©2023 QuitoMusic</p>
+        <p className="text-center pb-">©2023 QuitoMusic</p>
       </div>
     </footer>
   );
