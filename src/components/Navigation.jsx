@@ -61,7 +61,7 @@ const Navigation = () => {
 
 {nav &&(
   <ul className='flex flex-col justify-center items-center 
-  absolute top-0 w-full h-screen bg-yellow-950'>
+  absolute top-0 w-full h-screen bg-yellow-950 opacity-90'>
     {links.map(({id, link}) => (
         <li key={id} className='px-4 cursor-pointer capitalize py-6 text-4xl hover:scale-110 duration-200'>
         <Link onClick={() => setNav(!nav)} to={link} smooth duration={500}>{link}</Link>
