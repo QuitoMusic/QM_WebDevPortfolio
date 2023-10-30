@@ -11,42 +11,20 @@
   }
   }
 
-/* Define keyframe animations for each leaf */
 @keyframes sway-1 {
   0% {
-    transform: translate(0, 0);
+    transform: translateX(3px) translateY(0);
   }
   50% {
-    transform: translate(3px, 3px); 
+    transform: translateX(6.1px) translateY(0); 
   }
   100% {
-    transform: translate(0, 0);
+    transform: translateX(3px) translateY(0);
   }
-}
-
-@keyframes sway-2 {
-  0% {
-    transform: translate(0, 0);
-  }
-  50% {
-    transform: translate(-3px, -3px); 
-  }
-  100% {
-    transform: translate(0, 0);
-  }
-}
-
-.white-leaf {
-  filter: brightness(70) invert(0);
-  
 }
 
 .leaf-animation-1 {
-  animation: sway-1 4s infinite linear; 
-}
-
-.leaf-animation-2 {
-  animation: sway-2 5s infinite linear; 
+  animation: sway-1 6s infinite linear;
 }
 
 body {

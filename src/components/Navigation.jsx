@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import {FaBars, FaTimes} from 'react-icons/fa';
 import {Link} from 'react-scroll';
-import Leave1 from "../assets/Leave1.png";
-import Leave2 from "../assets/Leave2.png";
+import pineTree from "../assets/pineTree.png";
 
 
 const links = [
@@ -37,16 +36,12 @@ const Navigation = () => {
 
 <div>
   <a href="https://www.linkedin.com/in/francisco-gonz%C3%A1lez-7a9735271/">
-  <h1 className="ml-[6.5rem] md:ml-[4.5rem] 2xl:ml-[4rem] p-3 text-4xl sm:text-5xl font-signature glow-on-hover">F.González</h1>
+  <h1 className="ml-[0rem] md:ml-[0.57rem] 2xl:ml-[0.5rem] p-6 2xl:pt-[1.9rem] pb-0 text-3xl sm:text-5xl font-signature glow-on-hover">F.González</h1>
   </a>
 </div>
       
       <div>
-       <img src= {Leave1} alt="Leaves" className='d-flex absolute md:w-[110px] w-[80px] top-[0.5rem] right-[4rem] 2xl:w-[100px] xl:top-[0.5em] 2xl:top-[0rem]  md:right-[66rem] 2xl:right-[97rem]  rounded-full mx-auto white-leaf leaf-animation-1'/>
-      </div>
-
-      <div>
-      <img src= {Leave2} alt="Leaves" className='d-flex absolute md:w-[110px] w-[80px] top-[0.5rem] right-[15.5rem] 2xl:w-[100px] xl:top-[0.5rem] 2xl:top-[0rem]  md:right-[82rem] 2xl:right-[112.5rem]  rounded-full mx-auto white-leaf leaf-animation-2'/>
+       <img src= {pineTree} alt="pineTree" className='d-flex absolute md:w-[87px] w-[70px] top-[-.5rem] right-[20.8rem] 2xl:w-[100px] md:top-[-1rem] 2xl:top-[-1.2rem]  md:right-[84.4rem] 2xl:right-[114rem]  rounded-full mx-auto leaf-animation-1'/>
       </div>
 
 <ul className='hidden md:flex'>
