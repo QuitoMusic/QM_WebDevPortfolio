@@ -41,7 +41,7 @@ const Navigation = () => {
 </div>
       
       <div>
-       <img src= {pineTree} alt="pineTree" className='d-flex absolute md:w-[87px] w-[70px] top-[-.5rem] right-[20.8rem] 2xl:w-[100px] md:top-[-1rem] 2xl:top-[-1.2rem]  md:right-[84.4rem] 2xl:right-[114rem]  rounded-full mx-auto leaf-animation-1'/>
+       <img src= {pineTree} alt="pineTree" className='d-flex absolute md:w-[87px] w-[68px] top-[-.41rem] right-[20.92rem] 2xl:w-[100px] md:top-[-1rem] 2xl:top-[-1.2rem]  md:right-[84.4rem] 2xl:right-[114rem]  rounded-full mx-auto leaf-animation-1'/>
       </div>
 
 <ul className='hidden md:flex'>
