@@ -62,8 +62,8 @@ const Portfolio = () => {
     {
       id: 8,
       src: ECommerceMySQL,
-      href: 'https://quitomusic.github.io/UCF_JS_passwordgenerator_Challenge_3/',
-      href2: 'https://github.com/QuitoMusic/UCF_JS_passwordgenerator_Challenge_3',
+      href: 'https://drive.google.com/file/d/1BiZsK4hO-ybryzTjtm6ogJBsjv16O3dV/view',
+      href2: 'https://github.com/QuitoMusic/E-commerce_Site',
       name: 'E-Commerce Site',
     },
   ];
