@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/QM_WebDevPortfolio/static/css/main.159d6eac.css",
-    "main.js": "/QM_WebDevPortfolio/static/js/main.0954c2de.js",
+    "main.css": "/QM_WebDevPortfolio/static/css/main.d38716aa.css",
+    "main.js": "/QM_WebDevPortfolio/static/js/main.8d146f0d.js",
     "static/media/TakeAHike.png": "/QM_WebDevPortfolio/static/media/TakeAHike.83ca6b5083eb1206f74c.png",
     "static/media/Stasios.png": "/QM_WebDevPortfolio/static/media/Stasios.5ae030e066e508c8d13c.png",
     "static/media/catchbreathe.png": "/QM_WebDevPortfolio/static/media/catchbreathe.bc4b7a8557f7347e26a9.png",
@@ -9,22 +9,21 @@
     "static/media/background.jpg": "/QM_WebDevPortfolio/static/media/background.b4bae778ada2461ebdba.jpg",
     "static/media/WeatherDashboard.png": "/QM_WebDevPortfolio/static/media/WeatherDashboard.8b8a74597638494fa8e4.png",
     "static/media/Portrait.jpg": "/QM_WebDevPortfolio/static/media/Portrait.a662827717ad05739890.jpg",
-    "static/media/Leave1.png": "/QM_WebDevPortfolio/static/media/Leave1.349845e31e3564cca8fa.png",
     "static/media/PasswordGenerator.png": "/QM_WebDevPortfolio/static/media/PasswordGenerator.e6bf5774080106657537.png",
-    "static/media/Leave2.png": "/QM_WebDevPortfolio/static/media/Leave2.697824b36e3d4a3d9c14.png",
     "static/media/Homepage.png": "/QM_WebDevPortfolio/static/media/Homepage.07ccbf4f3e5e81ea5bf6.png",
     "static/media/react.png": "/QM_WebDevPortfolio/static/media/react.be941a112e22082f7efb.png",
     "static/media/node.png": "/QM_WebDevPortfolio/static/media/node.39957d72b9794421e9d1.png",
     "static/media/mongo.png": "/QM_WebDevPortfolio/static/media/mongo.4406467668ae76e32d29.png",
+    "static/media/pineTree.png": "/QM_WebDevPortfolio/static/media/pineTree.453bc68c935d40ddd969.png",
     "static/media/html.png": "/QM_WebDevPortfolio/static/media/html.7846268ceeebb0592174.png",
     "static/media/css.png": "/QM_WebDevPortfolio/static/media/css.7307c528d86a0bccc460.png",
     "static/media/javascript.png": "/QM_WebDevPortfolio/static/media/javascript.22e1f011ec6b56dfb397.png",
     "index.html": "/QM_WebDevPortfolio/index.html",
-    "main.159d6eac.css.map": "/QM_WebDevPortfolio/static/css/main.159d6eac.css.map",
-    "main.0954c2de.js.map": "/QM_WebDevPortfolio/static/js/main.0954c2de.js.map"
+    "main.d38716aa.css.map": "/QM_WebDevPortfolio/static/css/main.d38716aa.css.map",
+    "main.8d146f0d.js.map": "/QM_WebDevPortfolio/static/js/main.8d146f0d.js.map"
   },
   "entrypoints": [
-    "static/css/main.159d6eac.css",
-    "static/js/main.0954c2de.js"
+    "static/css/main.d38716aa.css",
+    "static/js/main.8d146f0d.js"
   ]
 }
