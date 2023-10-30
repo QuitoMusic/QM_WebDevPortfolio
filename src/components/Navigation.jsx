@@ -36,12 +36,12 @@ const Navigation = () => {
 
 <div>
   <a href="https://www.linkedin.com/in/francisco-gonz%C3%A1lez-7a9735271/">
-  <h1 className="ml-[0rem] md:ml-[0.57rem] 2xl:ml-[0.5rem] p-6 2xl:pt-[1.9rem] pb-0 text-3xl sm:text-5xl font-signature glow-on-hover">F.González</h1>
+  <h1 className="relative z-1 text-shadow-lg shadow-yellow-950 ml-[-0.4rem] md:ml-[0.57rem] 2xl:ml-[0.5rem] p-6 2xl:pt-[1.9rem] pb-0 text-3xl sm:text-5xl font-signature glow-on-hover">F.González</h1>
   </a>
 </div>
       
       <div>
-       <img src= {pineTree} alt="pineTree" className='d-flex absolute md:w-[87px] w-[68px] top-[-.41rem] right-[20.92rem] 2xl:w-[100px] md:top-[-1rem] 2xl:top-[-1.2rem]  md:right-[84.4rem] 2xl:right-[114rem]  rounded-full mx-auto leaf-animation-1'/>
+       <img src= {pineTree} alt="pineTree" className='d-flex absolute md:w-[105px] w-[68px] top-[-.1rem] right-[20.9rem] sm:opacity-[100%] 2xl:w-[100px] md:top-[-1.22rem] 2xl:top-[-0.6rem]  md:right-[83rem] 2xl:right-[113.06rem]  rounded-full mx-auto leaf-animation-1'/>
       </div>
 
 <ul className='hidden md:flex'>

@@ -35,7 +35,7 @@ body {
 }
 
 .glow-on-hover {
-  transition: all 0.3s ease;
+  transition: all 1s ease;
 }
 
 .glow-on-hover:hover {
