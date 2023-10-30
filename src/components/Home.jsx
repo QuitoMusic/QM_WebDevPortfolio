@@ -13,7 +13,7 @@ const Home = () => {
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row '>
             <div className='flex flex-col justify-center items-center h-full'>
             <div className='2xl:w-[350px] md:w-[300px] w-[200px] absolute md:mt-[2rem]'>
-             <img src= {Portrait} alt="Portrait" className='rounded-full mx-auto md:mb-[20rem] mb-[25rem] mt-[2rem] md:mt-[3rem]'/>
+             <img src= {Portrait} alt="Portrait" className='rounded-full mx-auto md:mb-[20rem] mb-[25rem] mt-[1.5rem] md:mt-[3rem]'/>
             </div>
             {/* <div className='w-[250px]'>
              <img src= {Leave1} alt="Leaves" className='d-flex absolute md:w-[190px] w-[120px] 2xl:w-[280px] xl:top-[15.5rem] md:top-[22rem] 2xl:top-[18rem] top-[11.5rem] md:right-[33rem] 2xl:right-[43rem] right-[5rem] rounded-full mx-auto saturate-0 brightness-[-1%] invert leaf-animation-2'/>
