@@ -81,9 +81,9 @@ const Contact = () => {
           <p className="text-4xl xl:text-7xl font-bold inline font-signature text-shadow-lg shadow-yellow-950">Let 's work together!</p>
           <p className="py-6 text-xl md:text-3xl font-extrabold text-shadow-lg shadow-yellow-950">Submit the form to get in contact with me:</p>
           </div>
-          <div className="pb-2 pt-3 bg-slate-100 bg-opacity-[90%] md:pb-[0rem] rounded-2xl">
+          <div className="pb-2 pt-3 bg-slate-100 bg-opacity-[90%] md:pb-[0rem] rounded-2xl d-flex text-center justify-center font-extrabold">
           {submissionSuccess ? ( 
-            <div className="text-yellow-950 text-lg p-3">
+            <div className="text-yellow-950 text-lg p-3 text-shadow-lg shadow-yellow-950">
               Thank you for submitting the form. We'll be in touch soon!
             </div>
           ) : (
