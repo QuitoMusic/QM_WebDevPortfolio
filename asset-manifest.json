@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/QM_WebDevPortfolio/static/css/main.d5d8b062.css",
-    "main.js": "/QM_WebDevPortfolio/static/js/main.b1ead25c.js",
+    "main.js": "/QM_WebDevPortfolio/static/js/main.6229369c.js",
     "static/media/TakeAHike.png": "/QM_WebDevPortfolio/static/media/TakeAHike.83ca6b5083eb1206f74c.png",
     "static/media/Stasios.png": "/QM_WebDevPortfolio/static/media/Stasios.5ae030e066e508c8d13c.png",
     "static/media/catchbreathe.png": "/QM_WebDevPortfolio/static/media/catchbreathe.bc4b7a8557f7347e26a9.png",
@@ -21,10 +21,10 @@
     "static/media/javascript.png": "/QM_WebDevPortfolio/static/media/javascript.22e1f011ec6b56dfb397.png",
     "index.html": "/QM_WebDevPortfolio/index.html",
     "main.d5d8b062.css.map": "/QM_WebDevPortfolio/static/css/main.d5d8b062.css.map",
-    "main.b1ead25c.js.map": "/QM_WebDevPortfolio/static/js/main.b1ead25c.js.map"
+    "main.6229369c.js.map": "/QM_WebDevPortfolio/static/js/main.6229369c.js.map"
   },
   "entrypoints": [
     "static/css/main.d5d8b062.css",
-    "static/js/main.b1ead25c.js"
+    "static/js/main.6229369c.js"
   ]
 }
