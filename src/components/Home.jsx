@@ -21,7 +21,7 @@ const Home = () => {
             <div className='w-[250px]'>
              <img src= {Leave2} alt="Leaves" className='d-flex absolute md:w-[190px] w-[120px] 2xl:w-[280px] xl:top-[15.5rem] md:top-[22rem] 2xl:top-[18rem] top-[11.5rem] md:right-[44rem] 2xl:right-[59rem] right-[12rem] rounded-full mx-auto invert saturate-0 brightness-[-1%] leaf-animation-1'/>
             </div> */}
-            <div class="text-center justify-center bg-opacity-80 pt-[5rem] mt-[9.5rem] md:pt-[8.5rem] 2xl:p-[1rem] 2xl:pt-[9rem] 2xl:pb-[1rem] bg-slate-100 rounded-lg 2xl:mt-[17rem] md:mt-[13rem] 2xl:w-[42rem]">
+            <div class="text-center justify-center bg-opacity-80 pt-[5rem] mt-[10rem] md:pt-[8.5rem] 2xl:p-[1rem] 2xl:pt-[9rem] 2xl:pb-[1rem] bg-slate-100 rounded-lg 2xl:mt-[17rem] md:mt-[13rem] 2xl:w-[42rem]">
             <h2 className='text-2xl xl:text-xl text-black md:text-yellow-950 pb-2 font-extrabold'>
                     My name is
                 </h2>
