@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/QM_WebDevPortfolio/static/css/main.09ad3feb.css",
-    "main.js": "/QM_WebDevPortfolio/static/js/main.c5319ced.js",
+    "main.css": "/QM_WebDevPortfolio/static/css/main.d5d8b062.css",
+    "main.js": "/QM_WebDevPortfolio/static/js/main.b1ead25c.js",
     "static/media/TakeAHike.png": "/QM_WebDevPortfolio/static/media/TakeAHike.83ca6b5083eb1206f74c.png",
     "static/media/Stasios.png": "/QM_WebDevPortfolio/static/media/Stasios.5ae030e066e508c8d13c.png",
     "static/media/catchbreathe.png": "/QM_WebDevPortfolio/static/media/catchbreathe.bc4b7a8557f7347e26a9.png",
@@ -9,6 +9,7 @@
     "static/media/background.jpg": "/QM_WebDevPortfolio/static/media/background.b4bae778ada2461ebdba.jpg",
     "static/media/WeatherDashboard.png": "/QM_WebDevPortfolio/static/media/WeatherDashboard.8b8a74597638494fa8e4.png",
     "static/media/Portrait.jpg": "/QM_WebDevPortfolio/static/media/Portrait.a662827717ad05739890.jpg",
+    "static/media/MySqlECommerce.png": "/QM_WebDevPortfolio/static/media/MySqlECommerce.51071ec813365ecc138c.png",
     "static/media/PasswordGenerator.png": "/QM_WebDevPortfolio/static/media/PasswordGenerator.e6bf5774080106657537.png",
     "static/media/Homepage.png": "/QM_WebDevPortfolio/static/media/Homepage.07ccbf4f3e5e81ea5bf6.png",
     "static/media/react.png": "/QM_WebDevPortfolio/static/media/react.be941a112e22082f7efb.png",
@@ -19,11 +20,11 @@
     "static/media/css.png": "/QM_WebDevPortfolio/static/media/css.7307c528d86a0bccc460.png",
     "static/media/javascript.png": "/QM_WebDevPortfolio/static/media/javascript.22e1f011ec6b56dfb397.png",
     "index.html": "/QM_WebDevPortfolio/index.html",
-    "main.09ad3feb.css.map": "/QM_WebDevPortfolio/static/css/main.09ad3feb.css.map",
-    "main.c5319ced.js.map": "/QM_WebDevPortfolio/static/js/main.c5319ced.js.map"
+    "main.d5d8b062.css.map": "/QM_WebDevPortfolio/static/css/main.d5d8b062.css.map",
+    "main.b1ead25c.js.map": "/QM_WebDevPortfolio/static/js/main.b1ead25c.js.map"
   },
   "entrypoints": [
-    "static/css/main.09ad3feb.css",
-    "static/js/main.c5319ced.js"
+    "static/css/main.d5d8b062.css",
+    "static/js/main.b1ead25c.js"
   ]
 }
