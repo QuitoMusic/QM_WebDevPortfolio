@@ -32,25 +32,20 @@ const Navigation = () => {
   const [nav, setNav] = useState(false);
 
   return (
-    <div className='flex justify-between items-center w-full h-25 text-white bg-yellow-950 md:opacity-90 fixed z-20'>
-
-<div>
-  <a href="https://www.linkedin.com/in/francisco-gonz%C3%A1lez-7a9735271/">
-  <h1 className="relative z-40 text-shadow-lg shadow-yellow-950 ml-[-0.4rem] md:ml-[0.57rem] top-2 md:top-0 2xl:ml-[0.5rem] p-6 2xl:pt-[1.9rem] text-3xl sm:text-5xl font-signature glow-on-hover">F.</h1>
-  </a>
-</div>
+    <div className='flex justify-between items-center w-full h-25 text-white opacity-90 bg-yellow-950 fixed z-20'>
       
       <div>
-       <img src= {pineTree} alt="pineTree" className='d-flex absolute md:w-[105px] w-[68px] top-[0.4rem] right-[20.8rem] sm:opacity-[100%] 2xl:w-[100px] md:top-[-1.22rem] 2xl:top-[-0.6rem]  md:right-[83.9rem] 2xl:right-[113.1rem]  rounded-full mx-auto leaf-animation-1'/>
+        <a href="https://www.linkedin.com/in/francisco-gonz%C3%A1lez-7a9735271/">
+          <div>
+            <img src= {pineTree} alt="pineTree" className='z-40 d-flex relative md:w-[105px] w-[80px] top-[0rem] opacity-[100%] 2xl:w-[115px] md:top-[0] 2xl:top-[0rem]  rounded-full mx-auto leaf-animation-1'/>
+          </div>
+        </a>
       </div>
-
+      
 <ul className='hidden md:flex'>
-
 {links.map(({id, link}) => (
 <li key={id} className='px-10 cursor-pointer capitalize font-medium text-white hover:scale-150 duration-200 glow-on-hover'>
-
 <Link to={link} smooth duration={500}>{link}</Link>
-
 </li>
 ))}
 </ul>
@@ -69,9 +64,7 @@ const Navigation = () => {
           ))}
       </ul>
 )}
-
 </div>
-
   )
 }
 
