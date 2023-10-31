@@ -37,7 +37,7 @@ const Navigation = () => {
       <div>
         <a href="https://www.linkedin.com/in/francisco-gonz%C3%A1lez-7a9735271/">
           <div>
-            <img src= {pineTree} alt="pineTree" className='z-40 d-flex relative md:w-[105px] w-[80px] top-[0rem] opacity-[100%] 2xl:w-[115px] md:top-[0] 2xl:top-[0rem]  rounded-full mx-auto leaf-animation-1'/>
+            <img src= {pineTree} alt="pineTree" className='z-40 d-flex right-[1rem] relative md:w-[105px] w-[80px] top-[0rem] opacity-[100%] 2xl:w-[115px] md:top-[0] 2xl:top-[0rem]  rounded-full mx-auto leaf-animation-1'/>
           </div>
         </a>
       </div>
