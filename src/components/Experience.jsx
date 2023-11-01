@@ -58,7 +58,7 @@ const Experience = () => {
                 portfolios.map(({id, src, title, style}) => (
             <div key={id} className={`shadow-md hover:scale-110 duration-500 py-2 rounded-lg ${style}`}>
                     <img src= { src } alt="" className='w-[10rem] mx-auto' />
-                    <p className='text-yellow-950 text-shadow-lg shadow-yellow-950 font-extrabold'>{title}</p>
+                    <p className='text-yellow-950'>{title}</p>
                 </div>   
              ))
             }
