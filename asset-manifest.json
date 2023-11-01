@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/QM_WebDevPortfolio/static/css/main.37274dee.css",
-    "main.js": "/QM_WebDevPortfolio/static/js/main.b38218fb.js",
-    "static/media/TakeAHike.png": "/QM_WebDevPortfolio/static/media/TakeAHike.416e35d03d2e120ee5ca.png",
-    "static/media/Stasios.png": "/QM_WebDevPortfolio/static/media/Stasios.d56f2f0e079fad70c892.png",
-    "static/media/catchbreathe.png": "/QM_WebDevPortfolio/static/media/catchbreathe.7951687477423161b47b.png",
-    "static/media/CodingQuiz.png": "/QM_WebDevPortfolio/static/media/CodingQuiz.73faee5a0f03a278ecc3.png",
+    "main.css": "/QM_WebDevPortfolio/static/css/main.8afc2921.css",
+    "main.js": "/QM_WebDevPortfolio/static/js/main.2894b15a.js",
+    "static/media/Stasios.mp4": "/QM_WebDevPortfolio/static/media/Stasios.522311008392bece7dc3.mp4",
+    "static/media/TakeAHike.mp4": "/QM_WebDevPortfolio/static/media/TakeAHike.93af07174e19fa89d5c8.mp4",
+    "static/media/CatchMyBreathVideo.mp4": "/QM_WebDevPortfolio/static/media/CatchMyBreathVideo.1e29c140321e9d053e0a.mp4",
+    "static/media/CodingQuiz.mp4": "/QM_WebDevPortfolio/static/media/CodingQuiz.2cefd7c95af4ea0061e9.mp4",
+    "static/media/PasswordGenerator.mp4": "/QM_WebDevPortfolio/static/media/PasswordGenerator.c98899cf386c4dc40f1b.mp4",
+    "static/media/MySqlECommerce.mp4": "/QM_WebDevPortfolio/static/media/MySqlECommerce.8d7672478671cd8e9eb3.mp4",
+    "static/media/WeatherDashboard.mp4": "/QM_WebDevPortfolio/static/media/WeatherDashboard.243e2bd47784d2c102aa.mp4",
     "static/media/background.jpg": "/QM_WebDevPortfolio/static/media/background.e7054524e1850e66875e.jpg",
-    "static/media/WeatherDashboard.png": "/QM_WebDevPortfolio/static/media/WeatherDashboard.2435ccd02840724101a3.png",
     "static/media/Portrait.jpg": "/QM_WebDevPortfolio/static/media/Portrait.0c02e49453fdb9b49dfa.jpg",
-    "static/media/MySqlECommerce.png": "/QM_WebDevPortfolio/static/media/MySqlECommerce.e9305dc60edd0004d426.png",
-    "static/media/PasswordGenerator.png": "/QM_WebDevPortfolio/static/media/PasswordGenerator.fda344448da6d51ecf79.png",
-    "static/media/Homepage.png": "/QM_WebDevPortfolio/static/media/Homepage.c003d2a500ceb21d8b0f.png",
+    "static/media/PWATextEditor.mp4": "/QM_WebDevPortfolio/static/media/PWATextEditor.a90bf753380f8a8e4d53.mp4",
     "static/media/react.png": "/QM_WebDevPortfolio/static/media/react.be941a112e22082f7efb.png",
     "static/media/node.png": "/QM_WebDevPortfolio/static/media/node.39957d72b9794421e9d1.png",
     "static/media/mongo.png": "/QM_WebDevPortfolio/static/media/mongo.4406467668ae76e32d29.png",
@@ -20,11 +20,11 @@
     "static/media/css.png": "/QM_WebDevPortfolio/static/media/css.7307c528d86a0bccc460.png",
     "static/media/javascript.png": "/QM_WebDevPortfolio/static/media/javascript.22e1f011ec6b56dfb397.png",
     "index.html": "/QM_WebDevPortfolio/index.html",
-    "main.37274dee.css.map": "/QM_WebDevPortfolio/static/css/main.37274dee.css.map",
-    "main.b38218fb.js.map": "/QM_WebDevPortfolio/static/js/main.b38218fb.js.map"
+    "main.8afc2921.css.map": "/QM_WebDevPortfolio/static/css/main.8afc2921.css.map",
+    "main.2894b15a.js.map": "/QM_WebDevPortfolio/static/js/main.2894b15a.js.map"
   },
   "entrypoints": [
-    "static/css/main.37274dee.css",
-    "static/js/main.b38218fb.js"
+    "static/css/main.8afc2921.css",
+    "static/js/main.2894b15a.js"
   ]
 }
