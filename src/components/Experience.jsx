@@ -6,7 +6,7 @@ import MongoDb from '../assets/icons/mongo.png';
 import NodeJs from '../assets/icons/node.png';
 import ReactIcon from '../assets/icons/react.png';
 
-const Contact = () => {
+const Experience = () => {
     const portfolios = [
         {
             id:1,
@@ -53,11 +53,11 @@ const Contact = () => {
                 <p className='md:text-3xl text-shadow-lg shadow-yellow-950 font-extrabold'>Technologies I've worked with</p>
             </div>
             
-            <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 py-8 px-12 sm:px-0 justify-center text-center'>
+            <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 py-8 px-6 sm:px-0 justify-center text-center'>
             {
                 portfolios.map(({id, src, title, style}) => (
             <div key={id} className={`shadow-md hover:scale-110 duration-500 py-2 rounded-lg ${style}`}>
-                    <img src= { src } alt="" className='w-[10rem] mx-auto ' />
+                    <img src= { src } alt="" className='w-[10rem] mx-auto' />
                     <p className='text-yellow-950 text-shadow-lg shadow-yellow-950 font-extrabold'>{title}</p>
                 </div>   
              ))
@@ -69,4 +69,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default Experience;
