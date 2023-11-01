@@ -75,7 +75,7 @@ const Contact = () => {
   }, [submitting]);
 
   return (
-    <div name="contact" className="w-full h-screen p-4 text-white pt-[13rem] md:pt-[5rem]">
+    <div name="contact" className="w-full h-screen p-4 text-white mt-[13rem] md:pt-[5rem]">
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
          <div className='d-flex justify-center text-center'>
           <p className="text-4xl xl:text-7xl font-bold inline font-signature text-shadow-lg shadow-yellow-950">Let 's work together!</p>
