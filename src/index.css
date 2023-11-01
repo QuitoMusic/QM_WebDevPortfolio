@@ -35,8 +35,7 @@ body {
 @media (max-width: 768px) {
   html, body {
     background-image: url('./assets/images/background.jpg') !important;
-    background-size: 400% !important;
-    background-repeat:repeat-y !important;
+    background-size: 355% !important;
     background-position: top center !important;
   }
 }
