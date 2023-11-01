@@ -79,7 +79,7 @@ const Contact = () => {
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
          <div className='d-flex justify-center text-center'>
           <p className="text-4xl xl:text-7xl font-bold inline font-signature text-shadow-lg shadow-yellow-950">Let 's work together!</p>
-          <p className="py-6 text-md md:text-3xl font-extrabold text-shadow-lg shadow-yellow-950">Submit the form to get in contact with me:</p>
+          <p className="py-6 text-sm md:text-3xl font-extrabold text-shadow-lg shadow-yellow-950">Submit the form to get in contact with me:</p>
           </div>
           <div className="pb-2 pt-3 bg-slate-100 bg-opacity-[90%] md:pb-[0rem] rounded-2xl d-flex text-center justify-center font-extrabold">
           {submissionSuccess ? ( 

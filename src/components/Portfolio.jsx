@@ -1,12 +1,12 @@
 import React from 'react';
-import Stasios from '../assets/Stasios.png';
-import TakeAHike from '../assets/TakeAHike.png';
-import CatchMybreathe from '../assets/catchbreathe.png';
-import WeatherDashboard from '../assets/WeatherDashboard.png';
-import JATE from '../assets/Homepage.png';
-import CQuiz from '../assets/CodingQuiz.png';
-import PasswordGenerator from '../assets/PasswordGenerator.png';
-import ECommerceMySQL from '../assets/MySqlECommerce.png';
+import Stasios from '../assets/Stasios.mp4';
+import TakeAHike from '../assets/TakeAHike.mp4';
+import CatchMybreathe from '../assets/CatchMyBreathVideo.mp4';
+import WeatherDashboard from '../assets/WeatherDashboard.mp4';
+import JATE from '../assets/PWATextEditor.mp4';
+import CQuiz from '../assets/CodingQuiz.mp4';
+import PasswordGenerator from '../assets/PasswordGenerator.mp4';
+import ECommerceMySQL from '../assets/MySqlECommerce.mp4';
 
 const Portfolio = () => {
   const portfolios = [
@@ -73,14 +73,17 @@ const Portfolio = () => {
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div  className="text-center pb-8">
           <p className="text-7xl font-bold inline my-4 sm:text-left font-signature text-shadow-lg shadow-yellow-950">Portfolio</p>
-          <p className="py-6 text-xl md:text-3xl text-shadow-lg shadow-yellow-950 font-extrabold">Here are some examples of my work</p>
+          <p className="py-3 text-md md:text-3xl text-shadow-lg shadow-yellow-950 font-extrabold">Here are some examples of my work</p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-8 px-12 sm:px-0">
           {portfolios.map(({ id, src, href, href2, name }) => (
             <div key={id} className="rounded-xl relative overflow-hidden group">
               <a href={href} className="flex justify-between items-center w-full text-white group-hover:blur-md group-hover:text-opacity-100 transform transition-transform duration-1000">
-                <img src={src} alt="" className="rounded-md" />
+             
+              <video controls autoPlay loop>
+                  <source src={src} type="video/mp4" />
+                </video>
               </a>
               
               <div className="text-xl w-[15rem] absolute top-[4.5rem] md:top-[4rem] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center bg-slate-100 bg-opacity-70 text-yellow-950 font-extrabold px-1 py-1 rounded-3xl shadow-2xl shadow-slate-100 opacity-0 group-hover:opacity-100 transition-opacity">

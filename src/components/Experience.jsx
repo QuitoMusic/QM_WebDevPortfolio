@@ -50,7 +50,7 @@ const Experience = () => {
         <div className = 'max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full text-white text-2xl'>
             <div className="text-center sm:pb-8 sm:mt-20 md:pt-[3rem]">
                 <p className='text-7xl font-bold  inline p-2 font-signature text-shadow-lg shadow-yellow-950'>Experience</p>
-                <p className='md:text-3xl text-shadow-lg shadow-yellow-950 font-extrabold'>Technologies I've worked with</p>
+                <p className='text-[1.1rem] md:text-3xl text-shadow-lg shadow-yellow-950 font-extrabold'>Technologies I've worked with</p>
             </div>
             
             <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 py-8 px-6 sm:px-0 justify-center text-center'>
