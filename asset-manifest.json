@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/QM_WebDevPortfolio/static/css/main.b39353fa.css",
-    "main.js": "/QM_WebDevPortfolio/static/js/main.66b4050c.js",
+    "main.css": "/QM_WebDevPortfolio/static/css/main.37274dee.css",
+    "main.js": "/QM_WebDevPortfolio/static/js/main.b38218fb.js",
     "static/media/TakeAHike.png": "/QM_WebDevPortfolio/static/media/TakeAHike.416e35d03d2e120ee5ca.png",
     "static/media/Stasios.png": "/QM_WebDevPortfolio/static/media/Stasios.d56f2f0e079fad70c892.png",
     "static/media/catchbreathe.png": "/QM_WebDevPortfolio/static/media/catchbreathe.7951687477423161b47b.png",
@@ -20,11 +20,11 @@
     "static/media/css.png": "/QM_WebDevPortfolio/static/media/css.7307c528d86a0bccc460.png",
     "static/media/javascript.png": "/QM_WebDevPortfolio/static/media/javascript.22e1f011ec6b56dfb397.png",
     "index.html": "/QM_WebDevPortfolio/index.html",
-    "main.b39353fa.css.map": "/QM_WebDevPortfolio/static/css/main.b39353fa.css.map",
-    "main.66b4050c.js.map": "/QM_WebDevPortfolio/static/js/main.66b4050c.js.map"
+    "main.37274dee.css.map": "/QM_WebDevPortfolio/static/css/main.37274dee.css.map",
+    "main.b38218fb.js.map": "/QM_WebDevPortfolio/static/js/main.b38218fb.js.map"
   },
   "entrypoints": [
-    "static/css/main.b39353fa.css",
-    "static/js/main.66b4050c.js"
+    "static/css/main.37274dee.css",
+    "static/js/main.b38218fb.js"
   ]
 }
