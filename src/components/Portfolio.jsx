@@ -80,11 +80,12 @@ const Portfolio = () => {
           {portfolios.map(({ id, src, href, href2, name }) => (
             <div key={id} className="rounded-xl relative overflow-hidden group">
               <a href={href} className="flex justify-between items-center w-full text-white group-hover:blur-md group-hover:text-opacity-100 transform transition-transform duration-1000">
-             
-              <video controls autoPlay loop>
+              </a>
+
+              <video controls autoPlay loop muted>
                   <source src={src} type="video/mp4" />
                 </video>
-              </a>
+              
               
               <div className="text-xl w-[15rem] absolute top-[4.5rem] md:top-[4rem] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center bg-slate-100 bg-opacity-70 text-yellow-950 font-extrabold px-1 py-1 rounded-3xl shadow-2xl shadow-slate-100 opacity-0 group-hover:opacity-100 transition-opacity">
                 {name}
