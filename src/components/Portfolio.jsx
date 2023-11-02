@@ -1,12 +1,12 @@
 import React from 'react';
-import Stasios from '../assets/Stasios.mp4';
-import TakeAHike from '../assets/TakeAHike.mp4';
-import CatchMybreathe from '../assets/CatchMyBreathVideo.mp4';
-import WeatherDashboard from '../assets/WeatherDashboard.mp4';
-import JATE from '../assets/PWATextEditor.mp4';
-import CQuiz from '../assets/CodingQuiz.mp4';
-import PasswordGenerator from '../assets/PasswordGenerator.mp4';
-import ECommerceMySQL from '../assets/MySqlECommerce.mp4';
+import Stasios from '../assets/Stasios.gif';
+import TakeAHike from '../assets/TakeAHike.gif';
+import CatchMybreathe from '../assets/CatchMyBreath.gif';
+import WeatherDashboard from '../assets/WeatherDashboard.gif';
+import JATE from '../assets/PWATextEditor.gif';
+import CQuiz from '../assets/CodingQuiz.gif';
+import PasswordGenerator from '../assets/PasswordGenerator.gif';
+import ECommerceMySQL from '../assets/MySqlECommerce.gif';
 
 const Portfolio = () => {
   const portfolios = [
@@ -80,12 +80,8 @@ const Portfolio = () => {
           {portfolios.map(({ id, src, href, href2, name }) => (
             <div key={id} className="rounded-xl relative overflow-hidden group">
               <a href={href} className="flex justify-between items-center w-full text-white group-hover:blur-md group-hover:text-opacity-100 transform transition-transform duration-1000">
+                <img src={src} alt="" className="rounded-md" />
               </a>
-
-              <video controls autoPlay loop muted>
-                  <source src={src} type="video/mp4" />
-                </video>
-              
               
               <div className="text-xl w-[15rem] absolute top-[4.5rem] md:top-[4rem] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center bg-slate-100 bg-opacity-70 text-yellow-950 font-extrabold px-1 py-1 rounded-3xl shadow-2xl shadow-slate-100 opacity-0 group-hover:opacity-100 transition-opacity">
                 {name}
