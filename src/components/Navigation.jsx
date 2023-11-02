@@ -40,18 +40,16 @@ const Navigation = () => {
             <img
               src={pineTree}
               alt="pineTree"
-              className='z-40 d-flex right-[0.5rem] relative md:w-[105px] w-[60px] top-[0rem] opacity-[100%] 2xl:w-[115px] md:top-[0] 2xl:top-[0rem] rounded-full mx-auto leaf-animation-1'
+              className='z-30 d-flex right-[0.5rem] relative md:w-[70px] lg:left-[-1rem] w-[60px] top-[-0.3rem] opacity-[60%] 2xl:w-[90px] md:top-[-0.5rem] 2xl:top-[-0.3rem] rounded-full mx-auto leaf-animation-1'
             />
           </div>
+          <h2 className='absolute z-40 text-shadow-lg shadow-slate-950 opacity-[100%] text-[1.5rem] xl:text-3xl 2xl:text-4xl xl:top-[1.2rem] 2xl:top-[2.2rem] 2xl:left-[1.5rem] xl:left-[1rem] text-white font-signature top-[1.1rem] left-5'>
+                    F.González
+                </h2>
         </a>
-        <a className='absolute  md:hidden z-40 d-flex left-[7.5rem] w-2 top-[1rem] opacity-[100%]' href="https://github.com/QuitoMusic">
+        <a className='absolute md:hidden z-40 d-flex left-[8.5rem] top-[1.5rem] opacity-[100%]' href="mailto:f86gonzalez@outlook.com">
           <div>
-            <FaGithub size={30} /> 
-          </div>
-        </a>
-        <a className='absolute md:hidden z-40 d-flex left-[15rem] top-[1rem] opacity-[100%]' href="mailto:f86gonzalez@outlook.com">
-          <div>
-            <HiOutlineMail size={30} /> 
+            <HiOutlineMail size={21} /> 
           </div>
         </a>
       </div>
