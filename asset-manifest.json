@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/QM_WebDevPortfolio/static/css/main.8afc2921.css",
-    "main.js": "/QM_WebDevPortfolio/static/js/main.f4d49b60.js",
-    "static/media/Stasios.mp4": "/QM_WebDevPortfolio/static/media/Stasios.522311008392bece7dc3.mp4",
-    "static/media/TakeAHike.mp4": "/QM_WebDevPortfolio/static/media/TakeAHike.93af07174e19fa89d5c8.mp4",
-    "static/media/CatchMyBreathVideo.mp4": "/QM_WebDevPortfolio/static/media/CatchMyBreathVideo.1e29c140321e9d053e0a.mp4",
-    "static/media/CodingQuiz.mp4": "/QM_WebDevPortfolio/static/media/CodingQuiz.2cefd7c95af4ea0061e9.mp4",
-    "static/media/PasswordGenerator.mp4": "/QM_WebDevPortfolio/static/media/PasswordGenerator.c98899cf386c4dc40f1b.mp4",
-    "static/media/MySqlECommerce.mp4": "/QM_WebDevPortfolio/static/media/MySqlECommerce.8d7672478671cd8e9eb3.mp4",
-    "static/media/WeatherDashboard.mp4": "/QM_WebDevPortfolio/static/media/WeatherDashboard.243e2bd47784d2c102aa.mp4",
+    "main.js": "/QM_WebDevPortfolio/static/js/main.13900103.js",
+    "static/media/Stasios.gif": "/QM_WebDevPortfolio/static/media/Stasios.cf04f99b9ee2cc2b1345.gif",
+    "static/media/TakeAHike.gif": "/QM_WebDevPortfolio/static/media/TakeAHike.94387ade16a224a93feb.gif",
+    "static/media/CatchMyBreath.gif": "/QM_WebDevPortfolio/static/media/CatchMyBreath.4f730af067a23af372e4.gif",
+    "static/media/CodingQuiz.gif": "/QM_WebDevPortfolio/static/media/CodingQuiz.5b206849494f9330b145.gif",
     "static/media/background.jpg": "/QM_WebDevPortfolio/static/media/background.e7054524e1850e66875e.jpg",
+    "static/media/MySqlECommerce.gif": "/QM_WebDevPortfolio/static/media/MySqlECommerce.fff80875fd4445bcc75f.gif",
+    "static/media/PasswordGenerator.gif": "/QM_WebDevPortfolio/static/media/PasswordGenerator.cc2d216d160622db9506.gif",
+    "static/media/WeatherDashboard.gif": "/QM_WebDevPortfolio/static/media/WeatherDashboard.eabf5e19350617e833d1.gif",
     "static/media/Portrait.jpg": "/QM_WebDevPortfolio/static/media/Portrait.0c02e49453fdb9b49dfa.jpg",
-    "static/media/PWATextEditor.mp4": "/QM_WebDevPortfolio/static/media/PWATextEditor.a90bf753380f8a8e4d53.mp4",
+    "static/media/PWATextEditor.gif": "/QM_WebDevPortfolio/static/media/PWATextEditor.a309c3c88e6295e3e5b7.gif",
     "static/media/react.png": "/QM_WebDevPortfolio/static/media/react.be941a112e22082f7efb.png",
     "static/media/node.png": "/QM_WebDevPortfolio/static/media/node.39957d72b9794421e9d1.png",
     "static/media/mongo.png": "/QM_WebDevPortfolio/static/media/mongo.4406467668ae76e32d29.png",
@@ -21,10 +21,10 @@
     "static/media/javascript.png": "/QM_WebDevPortfolio/static/media/javascript.22e1f011ec6b56dfb397.png",
     "index.html": "/QM_WebDevPortfolio/index.html",
     "main.8afc2921.css.map": "/QM_WebDevPortfolio/static/css/main.8afc2921.css.map",
-    "main.f4d49b60.js.map": "/QM_WebDevPortfolio/static/js/main.f4d49b60.js.map"
+    "main.13900103.js.map": "/QM_WebDevPortfolio/static/js/main.13900103.js.map"
   },
   "entrypoints": [
     "static/css/main.8afc2921.css",
-    "static/js/main.f4d49b60.js"
+    "static/js/main.13900103.js"
   ]
 }
