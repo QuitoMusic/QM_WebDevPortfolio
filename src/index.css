@@ -14,7 +14,7 @@
     transform: translateX(3px) translateY(0);
   }
   50% {
-    transform: translateX(8px) translateY(0); 
+    transform: translateX(14px) translateY(0); 
   }
   100% {
     transform: translateX(3px) translateY(0);
@@ -22,7 +22,11 @@
 }
 
 .leaf-animation-1 {
-  animation: sway-1 6s infinite linear;
+  animation: sway-1 7s infinite linear;
+}
+
+.leaf-animation-1:hover {
+  animation: sway-1 3s infinite linear;
 }
 
 body {

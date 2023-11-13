@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {FaBars, FaTimes, FaGithub} from 'react-icons/fa';
+import {FaBars, FaTimes} from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import {Link} from 'react-scroll';
 import pineTree from "../assets/pineTree.png";
@@ -40,10 +40,10 @@ const Navigation = () => {
             <img
               src={pineTree}
               alt="pineTree"
-              className='z-30 d-flex right-[0.5rem] relative md:w-[70px] lg:left-[-1rem] w-[60px] top-[-0.3rem] opacity-[60%] 2xl:w-[90px] md:top-[-0.5rem] 2xl:top-[-0.3rem] rounded-full mx-auto leaf-animation-1'
+              className='z-40 d-flex right-[0.5rem] relative md:w-[70px] lg:left-[-1rem] w-[60px] top-[-0.3rem] opacity-[50%] 2xl:w-[90px] md:top-[-0.5rem] 2xl:top-[-0.3rem] rounded-full mx-auto leaf-animation-1'
             />
           </div>
-          <h2 className='absolute z-40 text-shadow-lg shadow-slate-950 opacity-[100%] text-[1.5rem] xl:text-3xl 2xl:text-4xl xl:top-[1.2rem] 2xl:top-[2.2rem] 2xl:left-[1.5rem] xl:left-[1rem] text-white font-signature top-[1.1rem] left-5'>
+          <h2 className='absolute z-30 text-shadow-lg shadow-slate-950 opacity-[100%] text-[1.5rem] xl:text-3xl 2xl:text-4xl xl:top-[1.2rem] 2xl:top-[2.2rem] 2xl:left-[1.5rem] xl:left-[1rem] text-white font-signature top-[1.1rem] left-5'>
                     F.González
                 </h2>
         </a>
