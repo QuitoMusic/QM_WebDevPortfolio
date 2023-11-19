@@ -2,8 +2,14 @@ import React from 'react';
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import { saveAs } from 'file-saver';
 
 const SocialLinks = () => {
+    const handleDownload = () => {
+        const pdfUrl = '/FranciscoGonzalezFullStackDeveloper.pdf';
+        saveAs(pdfUrl, 'FranciscoGonzalezResume.pdf');
+    };
+
     const links = [
         {
             id:1,
@@ -34,47 +40,42 @@ const SocialLinks = () => {
             href: 'mailto:f86gonzalez@outlook.com',
         },
         {
-            id:4,
+            id: 4,
             child: (
                 <>
-                Resume <BsFillPersonLinesFill size={30} />
+                    Resume <BsFillPersonLinesFill size={30} />
                 </>
             ),
-            href: '/FranciscoGonzalezFullStackDeveloper.pdf',
+            onClick: handleDownload,
             style: 'rounded-tr-md',
-            download: true,
         },
     ];
 
-    
-  return (
-    <div className='hidden lg:flex flex-col top-[35%] left-0 fixed'>
-        <ul>
-            {links.map(({ id, child, href, style, download }) => (
-                <li 
-                key={id} 
-                className={
-                    "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] rounded-md hover:ml-[-10px] duration-300 bg-yellow-950 bg-opacity-80" + 
-                    " " + 
-                    style
-                }
-                >
+    return (
+        <div className='hidden lg:flex flex-col top-[35%] left-0 fixed'>
+            <ul>
+                {links.map(({ id, child, style, onClick }) => (
+                    <li
+                        key={id}
+                        className={
+                            "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] rounded-md hover:ml-[-10px] duration-300 bg-yellow-950 bg-opacity-80" +
+                            " " +
+                            style
+                        }
+                    >
 
-                <a 
-                href={href} 
-                className='flex justify-between items-center w-full text-white'
-                download={download}
-                target='_blank'
-                rel="noreferrer"
-                >
-                    {child}
-                </a>
-            </li>
-            ))}
-
-        </ul>
-    </div>
-  );
+                        <a
+                            href="#"
+                            className='flex justify-between items-center w-full text-white cursor-pointer'
+                            onClick={onClick}
+                        >
+                            {child}
+                        </a>
+                    </li>
+                ))}
+            </ul>
+        </div>
+    );
 };
 
 export default SocialLinks;
