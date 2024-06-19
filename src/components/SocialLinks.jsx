@@ -6,13 +6,13 @@ import { saveAs } from 'file-saver';
 
 const SocialLinks = () => {
     const handleDownload = () => {
-        const pdfUrl = '/Resume.pdf';
+        const pdfUrl = 'public/Resume.pdf'; 
         saveAs(pdfUrl, 'Resume.pdf');
     };
 
     const links = [
         {
-            id:1,
+            id: 1,
             child: (
                 <>
                 LinkedIn <FaLinkedin size={30} />
@@ -22,7 +22,7 @@ const SocialLinks = () => {
             style: 'rounded-tr-md'
         },
         {
-            id:2,
+            id: 2,
             child: (
                 <>
                 GitHub <FaGithub size={30} />
@@ -31,7 +31,7 @@ const SocialLinks = () => {
             href: 'https://github.com/QuitoMusic',
         },
         {
-            id:3,
+            id: 3,
             child: (
                 <>
                 Email <HiOutlineMail size={30} />
@@ -63,7 +63,6 @@ const SocialLinks = () => {
                             style
                         }
                     >
-
                         <a
                             href={href}
                             className='flex justify-between items-center w-full text-white cursor-pointer'
