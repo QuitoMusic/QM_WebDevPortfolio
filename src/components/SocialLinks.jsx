@@ -6,7 +6,7 @@ import { saveAs } from 'file-saver';
 
 const SocialLinks = () => {
     const handleDownload = () => {
-        const pdfUrl = '/FranciscoGonzalezFullStackDeveloper.pdf';
+        const pdfUrl = '/Resume.pdf';
         saveAs(pdfUrl, 'Resume.pdf');
     };
 
